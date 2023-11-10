@@ -11,7 +11,7 @@
 
 <style scoped>
 #hero {
-  /* background-image: url('@/images/banner/hero-bg.jpg'); */
+  background-image: url('@/images/banner/hero-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   height: 610px;
