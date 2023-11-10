@@ -1,14 +1,21 @@
 <template>
     <div class="logo-container col row">
-        <NuxtLink href="#" :to="{ hash: '#top' }" class="link text-decoration-none text-light">
+        <a @click="scrollToSection('top')" class="link text-decoration-none text-light">
             <div class="icon-container text-center align-middle justify-content-center d-flex align-items-center">
                 <i class="icon bi bi-chevron-up"></i>
             </div>
-        </NuxtLink>
+        </a>
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>
 
 <style scoped>
 .logo-container {
