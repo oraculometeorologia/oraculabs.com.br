@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "grunt": ">=16",
+    "grunt": ">=14",
     "sass-loader": "^13.3.2"
   }
 }
