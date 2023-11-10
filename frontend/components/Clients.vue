@@ -4,7 +4,7 @@
         <h3 class="pb-3">Clientes | Parceiros</h3>
         <div class="row">
             <div v-for="value in clients" class="col-3 p-3">
-                <img :src="value.imgUrl" alt="" class="w-5 client-logo">
+                <img :src="'/images/clients/logos/' + value.imgUrl" alt="" class="w-5 client-logo">
             </div>
         </div>
       </div>
@@ -15,26 +15,26 @@
 
 const clients = [
     {
-        imgUrl: 'assets/images/clients/logos/logo-chilli-beans.webp',
+        imgUrl: 'logo-chilli-beans.webp',
         alt: 'Chilli Beans Logo'
     },
     {
-        imgUrl: 'assets/images/clients/logos/logo-fapesp.webp'
+        imgUrl: 'logo-fapesp.webp'
     },
     {
-        imgUrl: 'assets/images/clients/logos/logo-lots-group-scania.webp'
+        imgUrl: 'logo-lots-group-scania.webp'
     },
     {
-        imgUrl: 'assets/images/clients/logos/logo-omega-energia.webp'
+        imgUrl: 'logo-omega-energia.webp'
     },
     {
-        imgUrl: 'assets/images/clients/logos/logo-sebrae.webp'
+        imgUrl: 'logo-sebrae.webp'
     },
     {
-        imgUrl: 'assets/images/clients/logos/logo-startup-farm.webp'
+        imgUrl: 'logo-startup-farm.webp'
     },
     {
-        imgUrl: 'assets/images/clients/logos/logo-uniggel-sementes.webp'
+        imgUrl: 'logo-uniggel-sementes.webp'
     },
 
 ]
@@ -42,7 +42,7 @@ const clients = [
 
 </script>
 
-<style lang="scss" scoped>
+<style >
 .client-logo {
     transform: scale(0.9);
     cursor: pointer;
@@ -51,8 +51,6 @@ const clients = [
 
 .client-logo:hover {
     transform: scale(0.99);
-
-    // transform: translateZ(0);
 }
 
 </style>

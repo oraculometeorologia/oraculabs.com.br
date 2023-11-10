@@ -3,6 +3,7 @@ export default async function() {
         const router = useRouter()
         
         router.afterEach(async (to, from) => {
+            console.log('to:', to)
             if (to.hash) {
                 const targetElement = document.querySelector(to.hash)
 
