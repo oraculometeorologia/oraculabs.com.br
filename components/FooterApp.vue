@@ -7,7 +7,7 @@
                     <!-- <h4 class="pb-3">Oraculo Logo</h4> -->
                     <div class="logo-container pb-4">
                         <NuxtLink :to="{ hash: '#top' }" class="img-link" >
-                            <img src="@/images/logos_oraculo/logo-oraculo-meteorologia-white.png" alt="" class="logo">
+                            <img src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" alt="" class="logo">
                         </NuxtLink>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore enim, nesciunt itaque est alias!</p>
