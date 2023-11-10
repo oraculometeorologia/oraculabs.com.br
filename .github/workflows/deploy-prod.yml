@@ -22,23 +22,23 @@ jobs:
       run: |
         npm install
       
-    # - name: Configure Environment Vars
-    #   run: |
-    #     rm -f .env
-    #     touch .env
-    #     echo "NUXT_API_URL=${{ vars.NUXT_APP_BASE_URL  }}" >> .env
+    - name: Configure Environment Vars
+      run: |
+        rm -f .env
+        touch .env
+        echo "NUXT_API_URL=${{ vars.NUXT_APP_BASE_URL  }}" >> .env
 
     - name: npm build
       run: npm run generate
-      # env:
-      #  NODE_ENV: production
+      env:
+       NODE_ENV: production
 
     - name: npm test
       id: tests
       run: |
         npm test --if-present
-      # env:
-      #   CI: true
+      env:
+        CI: true
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
