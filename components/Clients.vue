@@ -4,7 +4,7 @@
         <h3 class="pb-3">Clientes | Parceiros</h3>
         <div class="row">
             <div v-for="value in clients" class="col-3 p-3">
-                <img :src="'./images/clients/logos/' + value.imgUrl" alt="" class="w-5 client-logo">
+                <img :src="'@/images/clients/logos/' + value.imgUrl" alt="" class="w-5 client-logo">
             </div>
         </div>
       </div>
