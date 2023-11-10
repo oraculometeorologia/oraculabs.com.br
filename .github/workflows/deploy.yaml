@@ -23,7 +23,6 @@ jobs:
 
     - name: Install & Generate 🔧
       run: |
-        cd frontend
         npm ci
         npm run generate
       env:
