@@ -12,13 +12,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <NuxtLink :to="{ hash: '#produtos' }" class="nav-link">Produtos e serviços</NuxtLink>
+              <a class="nav-link" @click="scrollToSection('produtos')">Produtos e serviços</a>
             </li>
             <li class="nav-item">
-              <NuxtLink :to="{ hash: '#quem-somos' }" class="nav-link">Quem somos</NuxtLink>
+              <a class="nav-link" @click="scrollToSection('quem-somos')">Quem somos</a>
             </li>
             <li class="nav-item">
-              <NuxtLink :to="{ hash: '#clientes' }" class="nav-link">Clientes e parceiros</NuxtLink>
+              <a class="nav-link" @click="scrollToSection('clientes')">Clientes e parceiros</a>
             </li>
           </ul>
         </div>
@@ -26,11 +26,17 @@
     </nav>
 </template>
 
-<script setup></script>
+<script setup>
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>
 
 <style scoped>
 #navbar-logo {
   height: 35px;
 }
-
 </style>
