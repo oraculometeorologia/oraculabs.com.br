@@ -45,4 +45,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: dist
+        GITHUB_TOKEN: ${{ secrets.DEPLOY_ORACULO_TOKEN }}
+        BRANCH: gh-pages
+        folder: 'frontend'
