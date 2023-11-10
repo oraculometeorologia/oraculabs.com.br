@@ -581,168 +581,168 @@ const assets = {
   "/favicon.ico": {
     "type": "image/vnd.microsoft.icon",
     "etag": "\"224-5fmtvqNsU4E+H3fHgvIE0MXPW2w\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 548,
     "path": "../../.output/public/favicon.ico"
   },
   "/_nuxt/bootstrap-icons.40f14c01.woff": {
     "type": "font/woff",
     "etag": "\"2b044-FJHEMys6cyWHZUBXw6WhoyV5jCE\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.051Z",
     "size": 176196,
     "path": "../../.output/public/_nuxt/bootstrap-icons.40f14c01.woff"
   },
   "/_nuxt/bootstrap-icons.ae167342.woff2": {
     "type": "font/woff2",
     "etag": "\"1fecc-HlGYItXzp59pI9R3vqrGpk+pHcw\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 130764,
     "path": "../../.output/public/_nuxt/bootstrap-icons.ae167342.woff2"
   },
   "/_nuxt/entry.54a5053d.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"14162-SG3xr6X6HvchqcvX7zkFtXrNfKI\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 82274,
     "path": "../../.output/public/_nuxt/entry.54a5053d.css"
   },
   "/_nuxt/entry.a00d883a.js": {
     "type": "application/javascript",
     "etag": "\"31922-y4dzMTwWAUE4GjfER7qo4lTjFns\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 203042,
     "path": "../../.output/public/_nuxt/entry.a00d883a.js"
   },
   "/_nuxt/error-404.7fc72018.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"e2e-iNt1cqPQ0WDudfCTZVQd31BeRGs\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 3630,
     "path": "../../.output/public/_nuxt/error-404.7fc72018.css"
   },
   "/_nuxt/error-404.ee268fd1.js": {
     "type": "application/javascript",
     "etag": "\"8d5-0p1NmYH/Gu4f5uVYqo3xcRLPTI0\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 2261,
     "path": "../../.output/public/_nuxt/error-404.ee268fd1.js"
   },
   "/_nuxt/error-500.c5df6088.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"79e-ByRo+49BgcevWdRjJy3CMx2IA5k\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 1950,
     "path": "../../.output/public/_nuxt/error-500.c5df6088.css"
   },
   "/_nuxt/error-500.f6a28944.js": {
     "type": "application/javascript",
     "etag": "\"77e-ssOjhLnlNtSmjkFlyUWLceoVGS0\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 1918,
     "path": "../../.output/public/_nuxt/error-500.f6a28944.js"
   },
   "/_nuxt/vue.f36acd1f.981fe7ad.js": {
     "type": "application/javascript",
     "etag": "\"186-gRn8k1MAbNOQL+3pQ55uz7KeIRQ\"",
-    "mtime": "2023-11-10T20:01:46.810Z",
+    "mtime": "2023-11-10T20:07:00.055Z",
     "size": 390,
     "path": "../../.output/public/_nuxt/vue.f36acd1f.981fe7ad.js"
   },
   "/images/banner/banner-hero-menor.jpg": {
     "type": "image/jpeg",
     "etag": "\"f2048-AIc4SegvPCGwPCyBjWW1Wsw7YGU\"",
-    "mtime": "2023-11-10T20:01:46.818Z",
+    "mtime": "2023-11-10T20:07:00.063Z",
     "size": 991304,
     "path": "../../.output/public/images/banner/banner-hero-menor.jpg"
   },
   "/images/banner/banner-hero.jpg": {
     "type": "image/jpeg",
     "etag": "\"12475d-NDcUJzDVjG4FJsZTiCinu4gro1A\"",
-    "mtime": "2023-11-10T20:01:46.818Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 1197917,
     "path": "../../.output/public/images/banner/banner-hero.jpg"
   },
   "/images/banner/hero-bg.jpg": {
     "type": "image/jpeg",
     "etag": "\"5fe6a-1iaAgsUcY2HNrzzhgYZ+zYvNSwE\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 392810,
     "path": "../../.output/public/images/banner/hero-bg.jpg"
   },
   "/images/banner/oraculo-logo-grande.jpeg": {
     "type": "image/jpeg",
     "etag": "\"9e1b-Y7myVi7VOC3fvGNiuA6rDDtqnF4\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 40475,
     "path": "../../.output/public/images/banner/oraculo-logo-grande.jpeg"
   },
   "/images/logos_oraculo/logo-oraculo-meteorologia-dark-blue.png": {
     "type": "image/png",
     "etag": "\"fb9-Ldi9QDC1H/Z/Pccqrv3DBGUHeN8\"",
-    "mtime": "2023-11-10T20:01:46.818Z",
+    "mtime": "2023-11-10T20:07:00.063Z",
     "size": 4025,
     "path": "../../.output/public/images/logos_oraculo/logo-oraculo-meteorologia-dark-blue.png"
   },
   "/images/logos_oraculo/logo-oraculo-meteorologia-purple.png": {
     "type": "image/png",
     "etag": "\"1000-P5kxqx+Igo8wxK7cqh9+pDc53Aw\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 4096,
     "path": "../../.output/public/images/logos_oraculo/logo-oraculo-meteorologia-purple.png"
   },
   "/images/logos_oraculo/logo-oraculo-meteorologia-white.png": {
     "type": "image/png",
     "etag": "\"196e-GOpNUmd/zsw4cYouLNxMwjv25Qo\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 6510,
     "path": "../../.output/public/images/logos_oraculo/logo-oraculo-meteorologia-white.png"
   },
   "/images/clients/logos/logo-chilli-beans.webp": {
     "type": "image/webp",
     "etag": "\"1452-1sl7L9XuchYNsW/jZM/mAgakRh8\"",
-    "mtime": "2023-11-10T20:01:46.818Z",
+    "mtime": "2023-11-10T20:07:00.063Z",
     "size": 5202,
     "path": "../../.output/public/images/clients/logos/logo-chilli-beans.webp"
   },
   "/images/clients/logos/logo-fapesp.webp": {
     "type": "image/webp",
     "etag": "\"d6a-+9Zd/EFpGk1CZZcWlmuysw8XsP4\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 3434,
     "path": "../../.output/public/images/clients/logos/logo-fapesp.webp"
   },
   "/images/clients/logos/logo-lots-group-scania.webp": {
     "type": "image/webp",
     "etag": "\"9b0-ywz/NMwP942feLYpqQabCVpnR+s\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 2480,
     "path": "../../.output/public/images/clients/logos/logo-lots-group-scania.webp"
   },
   "/images/clients/logos/logo-omega-energia.webp": {
     "type": "image/webp",
     "etag": "\"9d2-3Yc9/jQ1Z/DDrUzsizx+xfoRLWE\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 2514,
     "path": "../../.output/public/images/clients/logos/logo-omega-energia.webp"
   },
   "/images/clients/logos/logo-sebrae.webp": {
     "type": "image/webp",
     "etag": "\"b2c-9My9adhbJagOQuCVuYRG0/Mz2bo\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 2860,
     "path": "../../.output/public/images/clients/logos/logo-sebrae.webp"
   },
   "/images/clients/logos/logo-startup-farm.webp": {
     "type": "image/webp",
     "etag": "\"8e6-o08ek37PVMDS3BPVKLzdOoTa5nA\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 2278,
     "path": "../../.output/public/images/clients/logos/logo-startup-farm.webp"
   },
   "/images/clients/logos/logo-uniggel-sementes.webp": {
     "type": "image/webp",
     "etag": "\"ec0-Oq7t9bwx+pWOnalCV7ZUfYCVXN8\"",
-    "mtime": "2023-11-10T20:01:46.822Z",
+    "mtime": "2023-11-10T20:07:00.067Z",
     "size": 3776,
     "path": "../../.output/public/images/clients/logos/logo-uniggel-sementes.webp"
   }
