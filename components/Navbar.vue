@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
       <div class="container">
         <NuxtLink href="#" :to="{ hash: '#top' }" class="navbar-brand" id="logo">
-          <img id="navbar-logo" src="images/logos_oraculo/logo-oraculo-meteorologia-purple.png" />
+          <img id="navbar-logo" src="./images/logos_oraculo/logo-oraculo-meteorologia-purple.png" />
         </NuxtLink>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
