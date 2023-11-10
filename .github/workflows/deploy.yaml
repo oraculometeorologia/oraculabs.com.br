@@ -1,32 +1,35 @@
 name: deploy
-on:
-  push:
-    branches:
-      - main
+
+on: [push, pull_request]
+
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  cd:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Setup node env
+        uses: actions/setup-node@v2.1.2
+        
         with:
-          node-version: '16'
-      - name: setup git auth
-        env:
-          email: '${{ secrets.AUTH_EMAIL }}'
-          username: '${{ secrets.AUTH_USERNAME }}'
-          access_token: '${{ secrets.DEPLOY_ORACULO_TOKEN }}'
-        run: |
-          git config --global credential.helper store
-          echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
-          git config --global user.email $email
-          git config --global user.name $username
-      - name: deploy to gh-pages
-        run: |
-          npm i
-          NODE_ENV=production npm run build
-          cd dist
-          git init
-          git add -A
-          git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
-          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" main:gh-pages
+          node-version: ${{ matrix.node }}
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Generate
+        run: yarn generate
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_ORACULO_TOKEN }}
+          publish_dir: ./dist
+
