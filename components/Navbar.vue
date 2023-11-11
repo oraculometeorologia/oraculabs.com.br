@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
       <div class="container">
-        <NuxtLink href="#" :to="{ hash: '#top' }" class="navbar-brand" id="logo">
+        <NuxtLink @click="scrollToSection('top')" class="navbar-brand" id="logo">
           <img id="navbar-logo" src="/images/logos_oraculo/logo-oraculo-meteorologia-purple.png" />
         </NuxtLink>
 
