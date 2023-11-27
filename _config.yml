@@ -1,1 +1,6 @@
-title: Site Oraculabs
+title: Oraculabs Website
+logo: /assets/img/logo.png
+description: Oraculabs website.
+# show_downloads: true
+# google_analytics:
+# theme: jekyll-theme-minimal
