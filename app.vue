@@ -2,14 +2,13 @@
   <div>
     <div id="top"></div>
 
-
     <Navbar />
 
     <Hero />
 
     <ProdutosCards />
 
-    <ComoPodeAjudar />
+    <OutrosServicos />
 
     <QuemSomos />
 

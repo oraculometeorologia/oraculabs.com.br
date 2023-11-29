@@ -2,57 +2,39 @@
     <section class="p-5" id="produtos">
       <div class="container">
         <div class="p-5 text-center">
-          <h2 class="h1">Principais produtos e serviços</h2>
+          <h2 class="fs-1">Principais produtos e serviços</h2>
         </div>
         <div class="row text-center">
           <div class="col-lg card m-3 p-5 hover-effect-light-gray">
             <div class="pb-2">
-              <i class="bi bi-database h1" />
+              <i class="bi bi-cloud-arrow-up-fill fs-1" />
             </div>
-            <h3 class="card-title h3">Banco de dados meteorológicos</h3>
-            <p class="card-text">
-              Desenvolvemos todo o processo de Download, tratamento e
-              disponibilização de diversos modelos meteorológicos via interface
-              web ou via API para o sistema de sua preferência
-            </p>
+            <h3 class="card-title h3">Banco de dados e infraestrutura cloud</h3>
+            <p>Organize a infraestrutura de armazenamento de dados e de acesso via nuvem.</p>
           </div>
           <div class="col-lg card m-3 p-5 hover-effect-light-gray">
             <div class="pb-2">
-              <i class="bi bi-cloud-arrow-up-fill h1" />
+              <i class="bi bi-database fs-1" />
             </div>
-            <h3 class="card-title h3">Infraestrutura local ou em nuvem</h3>
-            <p>
-              Preparamos toda a insfraestrutura de armazenamento de dados e
-              atualização automática das previsões, podendo ser em sistema cloud
-              ou em seu próprio data center.
-            </p>
+            <h3 class="card-title h3">Automatização de rotinas e criação de APIs</h3>
+            <p class="card-text">Automatize todo o processo de download, tratamento e disponibilização dos dados.</p>
           </div>
         </div>
 
         <div class="row text-center">
           <div class="col-lg card m-3 p-5 hover-effect-light-gray">
             <div class="pb-2">
-              <i class="bi bi-laptop h1" />
+              <i class="bi bi-graph-up-arrow fs-1" />
             </div>
-            <h3 class="card-title h3">Interfaces web dinâmicas</h3>
-            <p>
-              Criamos todos os dashboards (de forma customizada) para
-              visualização das previsões de forma independente (só previsões) ou
-              relacionamos como dados e informações de seu negócio
-              (personalizado).
-            </p>
+            <h3 class="card-title h3">Análises estatísticas e inteligência artificial</h3>
+            <p>Tenha dados com estatística ou IA de acordo com as necessidades do seu negócio.</p>
           </div>
           <div class="col-lg card m-3 p-5 hover-effect-light-gray">
             <div class="pb-2">
-              <i class="bi bi-graph-up-arrow h1" />
+              <i class="bi bi-laptop fs-1" />
             </div>
-            <h3 class="card-title h3">Análise e tratamento de dados</h3>
-            <p>
-              Realizamos diversos tipos de análises estatísticas tanto de
-              meteorologia quanto da relação dela com seu negócio. Tenha os
-              dados corrigidos e as informações adaptadas para as necessidades
-              do seu negócio.
-            </p>
+            <h3 class="card-title h3">Interfaces web estáticas ou dinâmicas</h3>
+            <p>Visualize as informações de forma customizada, via dashboards e relatórios.</p>
           </div>
         </div>
       </div>

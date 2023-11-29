@@ -3,7 +3,7 @@
       <div class="container">
         <div>
           <img id="hero-logo" src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" />
-          <h1>Previsão meteorológica sob demanda</h1>
+          <h1>Software com background científico</h1>
         </div>
       </div>
     </section>

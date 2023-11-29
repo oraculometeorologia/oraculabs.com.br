@@ -1,5 +1,5 @@
 <template>
-    <div class="container-local fixed-bottom row justify-content-between">
+    <div class="d-flex fixed-bottom justify-content-between m-5">
         <ButtonVoltarParaTopo />
         <ButtonWhatsapp />
     </div>
@@ -8,9 +8,5 @@
 <script setup></script>
 
 <style scoped>
-/* .container-local {
-    width: 100px;
-    height: 100px;
-    left: 100px;
-} */
+/* */
 </style>
