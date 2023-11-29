@@ -38,5 +38,10 @@ const scrollToSection = (sectionId) => {
 <style scoped>
 #navbar-logo {
   height: 35px;
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
 }
 </style>
