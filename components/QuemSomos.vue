@@ -1,5 +1,5 @@
 <template>
-  <section class="py-4 py-md-5 bg-light" id="quem-somos">
+  <section class="pt-4 pb-5 bg-light" id="quem-somos">
     <div class="container text-center">
       <div class="row">
         <div class="col-sm-12 col-md-8 m-auto">
