@@ -33,7 +33,7 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 onMounted(() => {
-  document.title = 'Oraculabs';
+  document.title = 'OracuLabs';
 })
 </script>
 
