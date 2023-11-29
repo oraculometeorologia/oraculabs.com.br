@@ -15,13 +15,13 @@
 
     <Clients />
 
-    <FaleConosco />
+    <!-- <FaleConosco /> -->
 
-    <Newsletter />
+    <!-- <Newsletter /> -->
 
-    <div>
+    <!-- <div>
       <slot />
-    </div>
+    </div> -->
 
     <FixedComponents />
 
@@ -38,8 +38,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 #top {
   position: relative;
 }
-
-
 
 .bg-blue {
   background-color: #90c3ea;

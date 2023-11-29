@@ -6,9 +6,9 @@
                 <div class="col-3">
                     <!-- <h4 class="pb-3">Oraculo Logo</h4> -->
                     <div class="logo-container pb-4">
-                        <NuxtLink :to="{ hash: '#top' }" class="img-link" >
+                        <a @click="scrollToSection('top')" class="link text-decoration-none text-light" style="cursor: pointer">
                             <img src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" alt="" class="logo">
-                        </NuxtLink>
+                        </a>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore enim, nesciunt itaque est alias!</p>
                 </div>
@@ -65,7 +65,14 @@
     </footer>
 </template>
 
-<script setup></script>
+<script setup>
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>
 
 <style scoped>
 a {
