@@ -1,23 +1,26 @@
 <template>
   <section id="hero" class="text-white text-center">
     <div class="container">
-      <img src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" />
+      <img class="w-100" src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" />
       <h1>Software com background científico</h1>
     </div>
   </section>
 </template>
 
 <style scoped>
+.container {
+  max-width: 700px;
+}
+
 #hero {
   background-image: url('/images/banner/hero-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
-  height: 780px;
+  height: 800px;
 }
 
 #hero img {
-  width: 700px;
-  margin-top: 275px;
+  margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,16 +36,15 @@
     background-image: url('/images/banner/hero-bg.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 710px;
+    height: 550px;
   }
 
   #hero img {
-    width: 350px;
-    margin-top: 275px;
+    margin-top: 220px;
   }
 
   #hero h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: 'Oxygen', sans-serif;
     padding-top: 30px;
   }

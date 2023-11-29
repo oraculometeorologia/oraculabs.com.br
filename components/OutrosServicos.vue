@@ -1,14 +1,14 @@
 <template>
-  <section class="py-5 bg-blue">
+  <section class="py-4 py-md-5 bg-blue">
     <div class="container">
-      <h2 class="fs-1 py-4 py-md-5 text-center">Outros serviços</h2>
+      <h2 class="fs-1 py-4 py-md-5 mb-4 text-center">Outros serviços</h2>
       <!-- <p class="pt-4 col-7">
           Se sua demanda é afetada pelas variações do tempo e do clima, você
           pode ter informações antecipadas para otimizar sua produção,
           estoque, logística ou venda.
       </p> -->
 
-      <div class="row py-4">
+      <div class="row">
         <div class="col-sm-12 col-md-6">
           <div class="mb-5">
             <h4>Inteligência artificial</h4>
