@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5" id="produtos">
+  <section class="py-4" id="produtos">
     <div class="container text-center">
       <h2 class="fs-1 py-4 py-md-5">Principais produtos e serviços</h2>
 

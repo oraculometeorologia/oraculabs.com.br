@@ -55,7 +55,7 @@
 
       <hr> -->
 
-      <p class="text-center mb-0"><span class="copyright">&copy;</span> <span class="direitos-reservados">Oráculo Meteorologia</span> - 2023</p>
+      <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">Oráculo Meteorologia</span> - 2023</p>
     </div>
 
   </footer>
@@ -118,5 +118,11 @@ img {
 .icon-link {
   font-size: 24px;
   color: white;
+}
+
+@media (max-width: 576px) {
+  .container {
+    height: 80px;
+  }
 }
 </style>
