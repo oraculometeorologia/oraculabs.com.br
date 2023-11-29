@@ -15,8 +15,8 @@ const scrollToSection = (sectionId) => {
 
 <style scoped>
 button {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-color: rgb(43, 128, 147);
 }
 

@@ -41,7 +41,8 @@ const scrollToSection = (sectionId) => {
   cursor: pointer;
 }
 
-.nav-link {
+.nav-item {
   cursor: pointer;
+  margin-bottom: 0;
 }
 </style>

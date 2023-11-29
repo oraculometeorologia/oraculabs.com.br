@@ -31,6 +31,10 @@
 
 <script setup>
 import "bootstrap-icons/font/bootstrap-icons.css";
+
+onMounted(() => {
+  document.title = 'Oraculabs';
+})
 </script>
 
 <style scoped>
