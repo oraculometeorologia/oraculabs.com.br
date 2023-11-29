@@ -1,8 +1,8 @@
 <template>
   <section id="clientes">
       <div class="container p-5 text-dark text-center">
-        <h3 class="pb-3">Clientes | Parceiros</h3>
-        <div class="row">
+        <h2 class="fs-1 pt-5 pb-5">Clientes | Parceiros</h2>
+        <div class="row mb-5">
             <div v-for="value in clients" class="col-3 p-3">
                 <img :src="'/images/clients/logos/' + value.imgUrl" alt="" class="w-5 client-logo">
             </div>
