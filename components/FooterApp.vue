@@ -55,7 +55,7 @@
 
       <hr> -->
 
-      <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">Oráculo Meteorologia</span> - 2023</p>
+      <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">Oraculabs</span> - 2023</p>
     </div>
 
   </footer>

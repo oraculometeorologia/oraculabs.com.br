@@ -1,8 +1,8 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top shadow">
       <div class="container">
         <NuxtLink @click="scrollToSection('top')" class="navbar-brand" id="logo">
-          <img id="navbar-logo" src="/images/logos_oraculo/logo-oraculo-meteorologia-purple.png" />
+          <img id="navbar-logo" src="/images/logos_oraculabs/logo-oraculabs.png" />
         </NuxtLink>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -37,8 +37,9 @@ const scrollToSection = (sectionId) => {
 
 <style scoped>
 #navbar-logo {
-  height: 35px;
   cursor: pointer;
+  height: 30px;
+  margin-top: -7px;
 }
 
 .nav-item {
