@@ -17,11 +17,11 @@ const scrollToSection = (sectionId) => {
 button {
   width: 60px;
   height: 60px;
-  background-color: rgb(43, 128, 147);
+  background-color: rgb(56, 148, 219);
 }
 
 button:hover {
-  background-color: rgb(110, 188, 206);
+  background-color: rgb(90, 160, 222);
 }
 
 i {

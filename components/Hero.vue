@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="text-white text-center">
     <div class="container">
-      <img class="w-100" src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" />
+      <img class="w-100" src="/images/logos_oraculabs/logo-oraculabs-white.png" />
       <h1>Software com background científico</h1>
     </div>
   </section>
@@ -9,7 +9,7 @@
 
 <style scoped>
 .container {
-  max-width: 700px;
+  max-width: 590px;
 }
 
 #hero {
