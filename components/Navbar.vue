@@ -9,7 +9,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navmenu">
+        <div class="collapse navbar-collapse pt-2 pt-md-0" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" @click="scrollToSection('produtos')">Produtos e serviços</a>
@@ -39,7 +39,7 @@ const scrollToSection = (sectionId) => {
 #navbar-logo {
   cursor: pointer;
   height: 30px;
-  margin-top: -7px;
+  margin-top: -5px;
 }
 
 .nav-item {

@@ -23,6 +23,8 @@
   margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 #hero h1 {
