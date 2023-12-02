@@ -1,5 +1,5 @@
 <template>
-  <button @click="$scrollTo('top')" class="btn rounded-circle" title="Voltar para o topo">
+  <button @click="$scrollTo('top')" class="btn rounded-circle bg-blue-1 text-white" title="Voltar para o topo">
     <i class="bi bi-chevron-up fs-4"></i>
   </button>
 </template>
@@ -11,14 +11,9 @@
 button {
   width: 60px;
   height: 60px;
-  background-color: rgb(56, 148, 219);
 }
 
 button.btn:hover, button.btn:active {
-  background-color: rgb(90, 160, 222);
-}
-
-i {
-  color: white;
+  background-color: rgb(90, 160, 222) !important;
 }
 </style>
