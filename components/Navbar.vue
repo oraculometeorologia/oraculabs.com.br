@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top shadow">
       <div class="container">
-        <NuxtLink @click="scrollToSection('top')" class="navbar-brand" id="logo">
+        <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
           <img id="navbar-logo" src="/images/logos_oraculabs/logo-oraculabs.png" />
         </NuxtLink>
 
@@ -12,13 +12,13 @@
         <div class="collapse navbar-collapse pt-2 pt-md-0" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" @click="scrollToSection('produtos')">Produtos e serviços</a>
+              <a class="nav-link" @click="$scrollTo('produtos')">Produtos e serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" @click="scrollToSection('quem-somos')">Quem somos</a>
+              <a class="nav-link" @click="$scrollTo('quem-somos')">Quem somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" @click="scrollToSection('clientes')">Clientes e parceiros</a>
+              <a class="nav-link" @click="$scrollTo('clientes')">Clientes e parceiros</a>
             </li>
           </ul>
         </div>
@@ -27,12 +27,6 @@
 </template>
 
 <script setup>
-const scrollToSection = (sectionId) => {
-  const element = document.getElementById(sectionId);
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
-}
 </script>
 
 <style scoped>
