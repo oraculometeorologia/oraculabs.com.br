@@ -1,3 +1,17 @@
-p {
-    line-height: 1.4rem;
+@import "./variables";
+
+.bg-blue-1 {
+  background-color: $blue1 !important;
+}
+
+.bg-dark-blue-1 {
+  background-color: $darkBlue1;
+}
+
+.bg-light-blue-2 {
+  background-color: $lightBlue2;
+}
+
+.bg-purple-1 {
+  background-color: $purple1;
 }

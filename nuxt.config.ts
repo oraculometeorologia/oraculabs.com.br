@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   target: 'static',
   devtools: { enabled: true },
   css: [
-    // '@/assets/css/style.scss',
+    '@/assets/css/style.scss',
     "@/node_modules/bootstrap/dist/css/bootstrap.min.css"
   ],
   script: [
