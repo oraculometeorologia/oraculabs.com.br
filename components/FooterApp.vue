@@ -4,7 +4,7 @@
       <!-- <div class="row pb-5">
         <div class="col-3">
           <div class="logo-container pb-4">
-            <a @click="scrollToSection('top')" class="link text-decoration-none text-light" style="cursor: pointer">
+            <a @click="$scrollTo('top')" class="link text-decoration-none text-light" style="cursor: pointer">
               <img src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" alt="" class="logo">
             </a>
           </div>
@@ -55,19 +55,13 @@
 
       <hr> -->
 
-      <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">Oraculabs</span> - 2023</p>
+      <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">OracuLabs</span> - 2023</p>
     </div>
 
   </footer>
 </template>
 
 <script setup>
-// const scrollToSection = (sectionId) => {
-//   const element = document.getElementById(sectionId);
-//   if (element) {
-//     element.scrollIntoView({ behavior: 'smooth' });
-//   }
-// }
 </script>
 
 <style scoped>
