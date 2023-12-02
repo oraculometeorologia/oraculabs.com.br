@@ -20,7 +20,7 @@ button {
   background-color: rgb(56, 148, 219);
 }
 
-button:hover {
+button.btn:hover, button.btn:active {
   background-color: rgb(90, 160, 222);
 }
 

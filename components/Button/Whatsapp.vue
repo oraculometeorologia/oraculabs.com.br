@@ -15,7 +15,7 @@ a {
   width: 60px;
 }
 
-a:hover {
+a.btn:hover, a.btn:active {
   color: white;
   background-color: #128C7E;
 }
