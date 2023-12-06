@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top shadow">
     <div class="container">
       <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
         <img id="navbar-logo" src="/images/logos_oraculabs/logo-oraculabs.png" />
