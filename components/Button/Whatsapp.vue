@@ -1,6 +1,9 @@
 <template>
-  <a href="whatsapp://send?text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND" title="Share on whatsapp"
-    class="btn rounded-circle d-inline-block">
+  <a
+    href="https://wa.me/5511964737564?text=Gostaria%20de%20saber%20mais%20sobre%20os%20serviços"
+    title="Share on whatsapp"
+    class="btn rounded-circle d-inline-block"
+    target="_blank">
     <i class="bi bi-whatsapp"></i>
   </a>
 </template>
