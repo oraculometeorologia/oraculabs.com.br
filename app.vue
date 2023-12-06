@@ -14,6 +14,8 @@
 
     <Clients />
 
+    <!-- <Carousel /> -->
+
     <!-- <FaleConosco /> -->
 
     <!-- <Newsletter /> -->
