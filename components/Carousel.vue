@@ -26,6 +26,13 @@
               <p>Nos dias 3 e 4, a Oráculo Meteorologia participou novamente da Campus Party, na área Startups & Makers. Tivemos a oportunidade de mais uma vez trazer ao público de que forma é possível reduzir custos e aumentar a produtividade no campo utilizando a meteorologia.</p>
             </div>
           </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="/images/img-placeholder.jpg" class="d-block w-100" alt="...">
+            <div class="pt-3">
+              <h3>Campus Party 9</h3>
+              <p>Fomos selecionados para apresentar a Oráculo Meteorologia na área de Startups & Makers da Campus Party, que aconteceu entre os dias 26 e 31 de janeiro no Anhembi, em São Paulo. A proposta do evento foi abrir espaço para empresas novatas terem oportunidade de apresentar seu negócio, diferenciais e inovações que trazem para o mercado.</p>
+            </div>
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -39,6 +46,7 @@
           <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
       </div>
 
