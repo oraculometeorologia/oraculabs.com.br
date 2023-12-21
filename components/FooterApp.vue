@@ -57,7 +57,6 @@
 
       <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">OracuLabs</span> - 2023</p>
     </div>
-
   </footer>
 </template>
 
@@ -103,7 +102,6 @@ img {
 .img-link {
   width: 90%;
 }
-
 
 .direitos-reservados {
   font-weight: 600;

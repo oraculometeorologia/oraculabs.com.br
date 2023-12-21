@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <Navbar id="top" />
+  <slot />
+  <FooterApp />
 </template>
 
 <script setup></script>

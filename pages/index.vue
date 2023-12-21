@@ -1,34 +1,15 @@
 <template>
-  <div>
-    <div id="top"></div>
-
-    <Navbar />
-
+  <NuxtLayout>
     <Hero />
-
     <ProdutosCards />
-
     <OutrosServicos />
-
     <QuemSomos />
-
-    <Clients />
-
-    <!-- <Carousel /> -->
-
+    <!-- <Clients /> -->
+    <Carousel />
     <!-- <FaleConosco /> -->
-
     <!-- <Newsletter /> -->
-
-    <!-- <div>
-          <slot />
-        </div> -->
-
     <FixedComponents />
-
-    <FooterApp />
-
-  </div>
+  </NuxtLayout>
 </template>
 
 <script setup>
