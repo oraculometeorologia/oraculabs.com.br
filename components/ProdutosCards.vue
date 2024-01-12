@@ -1,7 +1,7 @@
 <template>
-  <section class="py-4 py-md-5" id="produtos">
+  <section class="py-4 " id="produtos">
     <div class="container text-center">
-      <h2 class="fs-1 py-4 py-md-5">Principais produtos e serviços</h2>
+      <h2 class="fs-1 py-4 ">Produtos e Serviços</h2>
 
       <div class="row gx-4">
         <div class="col-sm-12 col-md-6 mb-4">
@@ -20,15 +20,22 @@
         </div>
         <div class="col-sm-12 col-md-6 mb-4">
           <div class="card h-100 p-4 p-md-5 shadow-sm">
-            <i class="bi bi-graph-up-arrow fs-1 pb-2" />
-            <h3>Análises estatísticas e inteligência artificial</h3>
-            <p>Tenha dados com estatística ou IA de acordo com as necessidades do seu negócio.</p>
+            <i class="bi bi-laptop fs-1 pb-2" />
+            <h3>Criação de Interfaces Web</h3>
+            <p>Visualize as informações de forma customizada, via dashboards e relatórios.</p>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 mb-4">
           <div class="card h-100 p-4 p-md-5 shadow-sm">
             <i class="bi bi-laptop fs-1 pb-2" />
-            <h3>Interfaces web estáticas ou dinâmicas</h3>
+            <h3>Manutenção e Sustentação</h3>
+            <p>Visualize as informações de forma customizada, via dashboards e relatórios.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mb-4">
+          <div class="card h-100 p-4 p-md-5 shadow-sm">
+            <i class="bi bi-laptop fs-1 pb-2" />
+            <h3>Consultoria</h3>
             <p>Visualize as informações de forma customizada, via dashboards e relatórios.</p>
           </div>
         </div>
@@ -51,4 +58,9 @@
   transition: all .25s;
   transition-timing-function: ease-in-out;
 }
+
+h2{
+  color: #2D356D
+}
+
 </style>

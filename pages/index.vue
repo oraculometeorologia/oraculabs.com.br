@@ -1,13 +1,14 @@
 <template>
   <NuxtLayout>
     <Hero />
+    <Diferenciais />
     <ProdutosCards />
-    <OutrosServicos />
-    <QuemSomos />
+    
     <!-- <Clients /> -->
     <Carousel />
     <!-- <FaleConosco /> -->
     <!-- <Newsletter /> -->
+
     <FixedComponents />
   </NuxtLayout>
 </template>
