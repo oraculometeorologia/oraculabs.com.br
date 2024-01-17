@@ -1,7 +1,7 @@
 <template>
   <section id="clientes">
     <div class="container py-4 text-dark text-center">
-      <h2 class="fs-1 py-4 py-md-5">Clientes | Parceiros</h2>
+      <h1 class="mt-5">Empresas que já contaram conosco</h1>
       <div class="row mb-4 mb-md-5">
         <div v-for="value in clients" class="col-sm-6 col-md-3">
           <img :src="'/images/clients/logos/' + value.imgUrl" alt="" class="w-5 client-logo">

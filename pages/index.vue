@@ -5,10 +5,12 @@
     <ProdutosCards />
     
     <!-- <Clients /> -->
-    <Carousel />
+    <!-- <Carousel /> -->
     <!-- <FaleConosco /> -->
     <!-- <Newsletter /> -->
 
+    <Case/>
+    <Cases/>
     <FixedComponents />
   </NuxtLayout>
 </template>
@@ -21,6 +23,18 @@ onMounted(() => {
 })
 </script>
 
+<style>
+h1{
+  color: #101F40;
+  border-bottom: 1px solid #101F40;
+  margin-bottom: 60px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 0 250px 43px 250px !important;
+  font-weight: 700;
+}
+
+</style>
 <style scoped>
 #top {
   position: relative;
@@ -43,4 +57,6 @@ onMounted(() => {
 .outline {
   outline: 1px solid black;
 }
+
+
 </style>

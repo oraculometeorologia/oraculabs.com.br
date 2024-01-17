@@ -4,7 +4,7 @@
       <div class="row gx-4">
         <div class="col-sm-6 col-md-3 mb-3">
         <div class="card h-100 p-4 p-md-5 ">    <!--shadow-sm -->
-            <h3>Foco no <br/> Canudo</h3>
+            <h3>Foco total no seu sucesso</h3>
             <i class="bi bi-database fs-1 pb-2" />
             <p>Organize a infraestrutura de armazenamento de dados e de acesso via nuvem.</p>
           </div>
@@ -12,24 +12,24 @@
         <div class="col-sm-6 col-md-3 mb-3  azullogo ">
           <div class="card h-100 p-4 p-md-5 ">
             
-            <h3>Transparência Transparência </h3>
+            <h3>Atuação direta dos donos</h3>
             <i class="bi bi-cloud-arrow-up-fill fs-1 pb-2  marrom" />
-            <p>Visualize as informações de forma customizada, via dashboards e relatórios.</p>
+            <p>Trabalhamos juntos aos nossos colaboradores para entregar o resultado prometido.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
           <div class="card h-100 p-4 p-md-5  laranja">
-            <h3>Equipe Multidisciplinar</h3>
+            <h3>Experiência<br/>única</h3>
             <i class="bi  bi-graph-up-arrow fs-1 pb-2" />
-            <p>Automatize todo o processo de download, tratamento e disponibilização dos dados.</p>
+            <p>Priorizamos o atendimento e o desenvolvimento sem enrolação para que tenha a melhor experiência conosco.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
           <div class="card h-100 p-4 p-md-5  avermelhado ">
             
-            <h3>Reedução de <br/>custo</h3>
+            <h3>Terceirize sua dor de cabeça</h3>
             <i class="bi bi-database fs-1 pb-2" />
-            <p>Visualize as informações de forma customizada, via dashboards e relatórios.</p>
+            <p>Reduza custos de contratação e treinamento de uma equipe própria de TI.</p>
           </div>
         </div>
 
@@ -47,7 +47,7 @@
   border: none;
   background: #fff;
   padding: 1rem 2rem !important;
-  
+  border: 1px solid #c8d4ec;
 }
 .card p {
   color: black;
@@ -69,11 +69,12 @@
   padding-bottom: 0 !important;
 }
 h3{
-  color: #3894DB
+  color: #101F40;
+  font-weight: 700;
 }
 
 i{
-  height: 130px;
+  height: 100px;
 }
 
 .fs-1 {

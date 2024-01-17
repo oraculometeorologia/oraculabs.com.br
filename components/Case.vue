@@ -1,0 +1,199 @@
+<template>
+    <section class="py-4 py-md-5" id="projetos">
+  <div class="container mt-4">
+    <h1>Alguns de nossos Projetos</h1>
+    <br />
+    <div class="row gx-5 ">
+      
+      <div class="col-sm-12 col-md-4 mb-5 ">
+        <div class="text-center ">
+          <div class="row ">
+            <div class="col-12 ">
+              <i class="bi bi-database pb-2 azulLogo2 " />
+            </div>
+            <div class="col-12 tituloCase  azulLogo2 ">
+              SOFTWARE ENERGIA<br>Software Customizado
+            </div>
+            <div class="col-12 empresa">
+              Omega Energia/ Serena Energy </div>
+            <p class="mb-2 descricao">A Omega Energia, atualmente Serena Energy, é uma das principais geradoras e
+              comercializadoras de energia do Brasil e, junto a eles, desenvolvemos diversos módulos de sistemas internos
+              para gestão de geração e manutenção de parques eólicos e solares.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 mb-5  ">
+        <div class="text-center ">
+          <div class="row ">
+            <div class="col-12 ">
+              <i class="bi bi-database pb-2 marrom2 " />
+            </div>
+            <div class="col-12 tituloCase  marrom2 ">
+              SOFTWARE LOGÍSTICA<br> Plataforma de Geo-Referenciamento
+            </div>
+            <div class="col-12 empresa">
+              Lots Group </div>
+              <p class="mb-2 descricao">A Lots Group é uma divisão de logística da Scania, montadora de caminhões, junto a
+            eles prestamos serviço através de uma <b>plataforma para monitoramento de chuva em tempo real</b> para
+            auxiliar o planejamento de coleta de uma demanda de produção agrícola.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-4 mb-5  ">
+        <div class="text-center ">
+          <div class="row ">
+            <div class="col-12 ">
+              <i class="bi bi-database pb-2 azulLogo2 " />
+            </div>
+            <div class="col-12 tituloCase  azulLogo2 ">
+              API - AGRO<br>Automatização de APIs
+            </div>
+            <div class="col-12 empresa">
+              Grão Direto </div>
+              <p class="mb-2 descricao">A Lots Group é uma divisão de logística da Scania, montadora de caminhões, junto a
+            eles prestamos serviço através de uma <b>plataforma para monitoramento de chuva em tempo real</b> para
+            auxiliar o planejamento de coleta de uma demanda de produção agrícola.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-4 mb-5 mt-5 ">
+        <div class="text-center ">
+          <div class="row ">
+            <div class="col-12 ">
+              <i class="bi bi-database pb-2 laranja2 " />
+            </div>
+            <div class="col-12 tituloCase  laranja2 ">
+              AUTOMATIZAÇÃO - AGRO<br>API notícias agrícolas
+            </div>
+            <div class="col-12 empresa">
+              CropView </div>
+              <p class="mb-2 descricao">A CropView é uma empresa de monitoramento de safras, junto a eles desenvolvemos APIs
+            de previsão do tempo e automatizações para geração de imagens, que foram utilizadas em diversos programas do
+            canal Notícias agrícolas.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-4 mb-5 mt-5 ">
+        <div class="text-center ">
+          <div class="row ">
+            <div class="col-12 ">
+              <i class="bi bi-database pb-2 avermelhado2 " />
+            </div>
+            <div class="col-12 tituloCase  avermelhado2 ">
+              AUTOMATIZAÇÃO - AGRO<br> App de previsão
+            </div>
+            <div class="col-12 empresa">
+              Uniggel Sementes</div>
+              <p class="mb-2 descricao">A Uniggel Sementes é uma grande produtora de sementes de grãos, junto a eles
+            prestamos serviços para diversas safras e safrinhas, auxiliando desde o plantio, pulverizações e colheita
+            com monitoramento em tempo real, previsões de curto e médio prazo através de uma plataforma web e um
+            aplicativo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 mb-5 mt-5 ">
+        <div class="text-center ">
+          <div class="row ">
+            <div class="col-12 ">
+              <i class="bi bi-database pb-2 marrom2 " />
+            </div>
+            <div class="col-12 tituloCase  marrom2 ">
+              DADOS - SEGUROS<br>Seguros
+            </div>
+            <div class="col-12 empresa">
+              Gracos</div>
+              <p class="mb-2 descricao">
+            Elaboração de levantamentos de dados e laudos meteorológicos para clientes que precisavam comprovar avarias
+            derivadas de fenômenos meteorológicos extremos como ventos e tempestades com raios. Nossos relatórios
+            assinados por meteorologistas comprovaram diversos sinistros.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</template>
+  
+<script setup>
+
+</script>
+  
+<style scoped>
+div {
+  line-height: 2.1rem;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+i {
+  margin-top: 30px;
+  font-size: 3rem !important;
+}
+
+.card {
+  padding: 0px 12px 10px 13px;
+  border: 0 !important;
+}
+
+.tarjaTitulo {
+
+  color: #101F40;
+  font-size: 16px;
+  font-weight: bolder;
+
+  text-align: left;
+
+}
+
+.tituloCase {
+  font-size: 20px !important;
+  font-weight: bolder;
+}
+
+.empresa {
+  font-size: 16px !important;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 22px;
+}
+
+
+.descricao {
+  font-size: 13px;
+}
+
+.g-5, .gx-5 {
+    --bs-gutter-x: 6rem;
+}
+
+.azulLogo2 {
+  color: #3894DB !important;
+}
+
+.cinzaAzulado {
+  color: #c8d4ec;
+}
+
+.laranja2 {
+  color: #EFBB89;
+}
+
+.avermelhado2 {
+  color: #E57861;
+}
+
+.marrom2 {
+  color: #A45C71;
+}
+</style>

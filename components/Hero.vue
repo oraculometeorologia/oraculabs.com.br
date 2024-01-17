@@ -1,25 +1,14 @@
 <template>
-  <section id="hero" class="text-left">
+  <section id="hero" class="text-center">
     <div class="container">
-      <img class="w-100" src="/images/logos_oraculabs/logo-oraculabs-white.png" />
-      <h1>Entregando Soluções para suas necessidades</h1>
+      <h1>Soluções digitais para suas necessidades</h1>
     </div>
   </section>
 </template>
 
 <style scoped>
-.container {
-  max-width: 590px;
-}
-
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    margin-right: 0  !important;
-    margin-left: 30px !important;
-}
-
 #hero {
-  background-image: url('/images/banner/tecno2.jpg');
+  background-image: url('/images/banner/bg-hero.jpg');
   background-size: contain;
   background-attachment: fixed;
   height: 500px;
@@ -34,11 +23,13 @@
 }
 
 #hero h1 {
-  font-size: 1.8rem;
+  font-size: 3rem !important;
   font-family: 'Oxygen', sans-serif;
-  padding-top: 30px;
+  padding-top: 210px;
   color: white;
-  margin-left: 50px;
+  font-weight: bolder;
+  margin: 0!important;
+  border-bottom: 0;
 }
 
 @media (max-width: 576px) {
