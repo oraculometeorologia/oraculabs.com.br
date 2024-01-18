@@ -4,31 +4,30 @@
       <div class="row gx-4">
         <div class="col-sm-6 col-md-3 mb-3">
         <div class="card h-100 p-4 p-md-5 ">    <!--shadow-sm -->
-            <h3>Foco total no seu sucesso</h3>
-            <i class="bi bi-database fs-1 pb-2" />
+          <img src="/images/icon/foco.png" />
+          <h3>Foco total no seu sucesso</h3>
             <p>Organize a infraestrutura de armazenamento de dados e de acesso via nuvem.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3  azullogo ">
           <div class="card h-100 p-4 p-md-5 ">
-            
+            <img src="/images/icon/mao.png" />
             <h3>Atuação direta dos donos</h3>
-            <i class="bi bi-cloud-arrow-up-fill fs-1 pb-2  marrom" />
             <p>Trabalhamos juntos aos nossos colaboradores para entregar o resultado prometido.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
           <div class="card h-100 p-4 p-md-5  laranja">
+            <img src="/images/icon/mordomo.png" />
             <h3>Experiência<br/>única</h3>
-            <i class="bi  bi-graph-up-arrow fs-1 pb-2" />
             <p>Priorizamos o atendimento e o desenvolvimento sem enrolação para que tenha a melhor experiência conosco.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
           <div class="card h-100 p-4 p-md-5  avermelhado ">
             
+            <img src="/images/icon/dor.png" />
             <h3>Terceirize sua dor de cabeça</h3>
-            <i class="bi bi-database fs-1 pb-2" />
             <p>Reduza custos de contratação e treinamento de uma equipe própria de TI.</p>
           </div>
         </div>
@@ -41,6 +40,12 @@
 <script setup></script>
 
 <style scoped>
+img{
+  width: 60%;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  text-align: center;
+}
 .card {
   transition: all .25s;
   transition-timing-function: ease-in-out;

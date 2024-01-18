@@ -11,10 +11,10 @@
             <div class="col-12 ">
               <i class="bi bi-database pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase  azulLogo2 ">
-              SOFTWARE ENERGIA<br>Software Customizado
+            <div class="col-12 tituloCase   ">
+              ERP Customizado
             </div>
-            <div class="col-12 empresa">
+            <div class="col-12  empresa">
               Omega Energia/ Serena Energy </div>
             <p class="mb-2 descricao">A Omega Energia, atualmente Serena Energy, é uma das principais geradoras e
               comercializadoras de energia do Brasil e, junto a eles, desenvolvemos diversos módulos de sistemas internos
@@ -27,10 +27,10 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 marrom2 " />
+              <i class="bi bi-database pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase  marrom2 ">
-              SOFTWARE LOGÍSTICA<br> Plataforma de Geo-Referenciamento
+            <div class="col-12 tituloCase   ">
+              Plataforma de Georreferenciamento
             </div>
             <div class="col-12 empresa">
               Lots Group </div>
@@ -48,8 +48,8 @@
             <div class="col-12 ">
               <i class="bi bi-database pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase  azulLogo2 ">
-              API - AGRO<br>Automatização de APIs
+            <div class="col-12 tituloCase   ">
+              Automatização de APIs
             </div>
             <div class="col-12 empresa">
               Grão Direto </div>
@@ -65,10 +65,10 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 laranja2 " />
+              <i class="bi bi-database pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase  laranja2 ">
-              AUTOMATIZAÇÃO - AGRO<br>API notícias agrícolas
+            <div class="col-12 tituloCase   ">
+              Visualização de Dados
             </div>
             <div class="col-12 empresa">
               CropView </div>
@@ -84,10 +84,10 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 avermelhado2 " />
+              <i class="bi bi-database pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase  avermelhado2 ">
-              AUTOMATIZAÇÃO - AGRO<br> App de previsão
+            <div class="col-12 tituloCase   ">
+              App para Gestão Operacional
             </div>
             <div class="col-12 empresa">
               Uniggel Sementes</div>
@@ -103,10 +103,10 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 marrom2 " />
+              <i class="bi bi-database pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase  marrom2 ">
-              DADOS - SEGUROS<br>Seguros
+            <div class="col-12 tituloCase   ">
+              Laudo de Sinistro para Seguros
             </div>
             <div class="col-12 empresa">
               Gracos</div>
