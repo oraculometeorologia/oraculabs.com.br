@@ -1,12 +1,12 @@
 <template>
-  <div id="footer" class="rr-footer default ">
+  <!-- <div id="footer" class="rr-footer default ">
 
 
     <section class="" id="rodapeGoogle">
       <QuemSomos />
 
     </section>
-  </div>
+  </div> -->
 
 
   <div class="d-flex fixed-bottom justify-content-between m-3">

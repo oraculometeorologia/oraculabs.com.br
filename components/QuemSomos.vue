@@ -1,21 +1,23 @@
 <template>
-  <div class="  pt-4 pb-5 ">
+  <div class="container pt-4 pb-5">
     <!-- <div class="container text-center ">
       <h1>Quem somos</h1>
     </div> -->
-    <div class="container text-center card " id="quemSomos">
-      <div class="row">
-        <div class="col-sm-12 col-md-12" id="txtQuemSomos">
-          <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
-            <img src="/images/logos_oraculabs/logo-oraculabs-white.png" />
-          </NuxtLink>
-        </div>
-        <div class="col-sm-12 col-md-12" id="txtQuemSomos">
-          Somos especialistas em software com background científico. <br/>
-          Nossa equipe é formada por  doutores em meteorologia, física, oceanografia e desenvolvedores web. <br/>
-          Acreditamos que seu negócio terá grandes
-          diferenciais com nossas soluções.
-        </div>
+    <div class="text-center card rounded-4" id="quemSomos">
+      <div class="mb-4" id="txtQuemSomos">
+        <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
+          <img src="/images/logos_oraculabs/logo-oraculabs-white.png" />
+        </NuxtLink>
+      </div>
+      <div class="mb-5" id="txtQuemSomos">
+        Somos especialistas em software com background científico. <br/>
+        Nossa equipe é formada por  doutores em meteorologia, física, oceanografia e desenvolvedores web. <br/>
+        Acreditamos que seu negócio terá grandes
+        diferenciais com nossas soluções.
+      </div>
+
+      <div>
+        <CtaButton />
       </div>
     </div>
   </div>
@@ -26,7 +28,7 @@
 <style scoped>
 
 img {
-  width: 30%;
+  max-width: 350px;
   padding-bottom: 20px;
 }
 
@@ -41,6 +43,7 @@ img {
 
 #quemSomos {
   background-image: url('/images/banner/bg-hero.jpg');
+  background-size: cover;
   margin-bottom: -70px;
   position: relative;
   z-index: 10;
@@ -51,7 +54,6 @@ img {
 }
 
 @media (max-width: 576px) {
-
   p,
   li {
     font-size: 1rem;

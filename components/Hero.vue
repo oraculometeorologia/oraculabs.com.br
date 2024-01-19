@@ -1,29 +1,20 @@
 <template>
   <section id="hero" class="text-left">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6" style="padding-right: 70px;">
-          <div class="row">
 
-            <div class="col-sm-12">
-              <h1>Soluções digitais para suas necessidades</h1>
-            </div>
-            <div class="col-sm-12">
-              <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e 
-                diminuir seus custos e despesas
-              </p>
-            </div>
-            <div class="col-sm-12" style="margin-top: 40px; ">
-
-              <button style="font-size: 24px;     border-radius: 50px !important;" type="button" class="btn btn-primary mt-3 px-5 py-2">Fale Conosco</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-sm-6">
-          <img class="banner" src="/images/banner/hero.webp" />
+      <div style="max-width: 580px">
+        <h1>Soluções digitais para suas necessidades</h1>
+        <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e 
+          diminuir seus custos e despesas
+        </p>
+        <div style="margin-top: 40px;">
+          <CtaButton />
         </div>
       </div>
     </div>
+    <!-- <div class="col-lg-6 col-sm-6">
+      <img class="banner" src="/images/banner/hero.webp" />
+    </div> -->
   </section>
 </template>
 
@@ -55,11 +46,10 @@ p {
   text-align: left;
   font-size: 3.2rem;
   font-family: 'Oxygen', sans-serif;
-  padding-top: 120px;
+  padding-top: 130px;
+  margin-bottom: 30px;
   color: white;
   font-weight: bolder;
-  margin: 10px 0 10px 10px  !important;
-  border-bottom: 0;
 }
 
 @media (max-width: 576px) {
@@ -82,11 +72,17 @@ p {
     font-size: 24px !important;
   }
 
-
   #hero h1 {
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-family: 'Oxygen', sans-serif;
-    padding-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    line-height: 3rem;
+  }
+
+  #hero p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
   }
 
 

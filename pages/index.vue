@@ -9,8 +9,9 @@
     <!-- <FaleConosco /> -->
     <!-- <Newsletter /> -->
 
-    <Case/>
     <Cases/>
+    <Clientes/>
+    <QuemSomos />
     <FixedComponents />
   </NuxtLayout>
 </template>
@@ -23,10 +24,10 @@ onMounted(() => {
 })
 </script>
 
-<style>
+<style scoped>
 h1{
   color: #101F40;
-  border-bottom: 1px solid #101F40;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 60px;
   text-align: center;
   padding-bottom: 30px;

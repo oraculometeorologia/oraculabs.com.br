@@ -1,17 +1,75 @@
 @import "./variables";
 
+html,
+body,
+html * {
+  font-family: 'Oxygen', sans-serif;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1,
+.fs-1,
+.fs-2,
+.fs-3,
+.fs-4,
+.fs-5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+// Background color
 .bg-blue-1 {
   background-color: $blue1 !important;
 }
 
 .bg-dark-blue-1 {
-  background-color: $darkBlue1;
+  background-color: $darkBlue1 !important;
 }
 
 .bg-light-blue-2 {
-  background-color: $lightBlue2;
+  background-color: $lightBlue2 !important;
+}
+
+.bg-orange-1 {
+  background-color: $orange1 !important;
+}
+
+.bg-pink-1 {
+  background-color: $pink1 !important;
 }
 
 .bg-purple-1 {
-  background-color: $purple1;
+  background-color: $purple1 !important;
+}
+
+// Buttons
+.btn.btn-primary {
+  background-color: $orange1;
+  border: none;
+}
+
+.btn.btn-primary:active {
+  background-color: $orange1 !important;
+}
+
+.btn.btn-primary:hover {
+  background-color: $orange2;
+}
+
+
+.hr-title {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 645px;
 }
