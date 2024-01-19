@@ -9,9 +9,9 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 azulLogo2 " />
+              <i class="bi bi-display pb-2 azulLogo2 " />
             </div>
-            <div class="col-12 tituloCase   ">
+            <div class="col-12 tituloCase">
               ERP Customizado
             </div>
             <div class="col-12  empresa">
@@ -27,7 +27,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 azulLogo2 " />
+              <i class="bi bi-pin-map pb-2 azulLogo2 " />
             </div>
             <div class="col-12 tituloCase   ">
               Plataforma de Georreferenciamento
@@ -46,7 +46,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 azulLogo2 " />
+              <i class="bi bi-gear-wide pb-2 azulLogo2 " />
             </div>
             <div class="col-12 tituloCase   ">
               Automatização de APIs
@@ -65,7 +65,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 azulLogo2 " />
+              <i class="bi bi-pie-chart pb-2 azulLogo2 " />
             </div>
             <div class="col-12 tituloCase   ">
               Visualização de Dados
@@ -84,7 +84,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 azulLogo2 " />
+              <i class="bi bi-lightbulb pb-2 azulLogo2 " />
             </div>
             <div class="col-12 tituloCase   ">
               App para Gestão Operacional
@@ -103,7 +103,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 ">
-              <i class="bi bi-database pb-2 azulLogo2 " />
+              <i class="bi bi-database-fill-lock pb-2 azulLogo2 " />
             </div>
             <div class="col-12 tituloCase   ">
               Laudo de Sinistro para Seguros

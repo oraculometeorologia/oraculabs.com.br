@@ -9,7 +9,8 @@
               <h1>Soluções digitais para suas necessidades</h1>
             </div>
             <div class="col-sm-12">
-              <p>texto em tres linhas texto em tres linhas texto emtexto em tres linhas texto em treslinhas texto em tres linhas texto em tres  linhas texto em tres linhas texto em tres linhas
+              <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e 
+                diminuir seus custos e despesas
               </p>
             </div>
             <div class="col-sm-12" style="margin-top: 40px; ">
@@ -40,6 +41,7 @@
 p {
   color: white;
   font-size: 24px;
+  line-height: 40px;
 }
 
 #hero img {

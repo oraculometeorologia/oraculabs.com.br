@@ -30,7 +30,7 @@ h1{
   margin-bottom: 60px;
   text-align: center;
   padding-bottom: 30px;
-  margin: 0 250px 43px 250px !important;
+  margin: 50px 250px 43px 250px !important;
   font-weight: 700;
 }
 

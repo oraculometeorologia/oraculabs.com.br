@@ -4,21 +4,21 @@
       <div class="row gx-4">
         <div class="col-sm-6 col-md-3 mb-3">
         <div class="card h-100 p-4 p-md-5 ">    <!--shadow-sm -->
-          <img src="/images/icon/foco.png" />
+          <img class="w50 pl50" src="/images/icon/foco.png" />
           <h3>Foco total no seu sucesso</h3>
-            <p>Organize a infraestrutura de armazenamento de dados e de acesso via nuvem.</p>
+            <p>Aumente o seu poder de tomada de decisões com nossos sistemas customizados</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3  azullogo ">
           <div class="card h-100 p-4 p-md-5 ">
-            <img src="/images/icon/mao.png" />
-            <h3>Atuação direta dos donos</h3>
-            <p>Trabalhamos juntos aos nossos colaboradores para entregar o resultado prometido.</p>
+            <img class="w60 pl40" src="/images/icon/mao2.png" style="padding-bottom: 0;" />
+            <h3>Se torne líder de mercado</h3>
+            <p>Nós cuidamos da parte tecnológica para você se dedicar a crescer seu negócio.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
           <div class="card h-100 p-4 p-md-5  laranja">
-            <img src="/images/icon/mordomo.png" />
+            <img class="w50 pl50" src="/images/icon/mordomo.png" />
             <h3>Experiência<br/>única</h3>
             <p>Priorizamos o atendimento e o desenvolvimento sem enrolação para que tenha a melhor experiência conosco.</p>
           </div>
@@ -26,7 +26,7 @@
         <div class="col-sm-6 col-md-3 mb-3">
           <div class="card h-100 p-4 p-md-5  avermelhado ">
             
-            <img src="/images/icon/dor.png" />
+            <img class="w60 pl40" src="/images/icon/dor.png" />
             <h3>Terceirize sua dor de cabeça</h3>
             <p>Reduza custos de contratação e treinamento de uma equipe própria de TI.</p>
           </div>
@@ -40,11 +40,36 @@
 <script setup></script>
 
 <style scoped>
-img{
+.w70{
+  width: 70%;
+}
+.w60{
   width: 60%;
-  margin-bottom: 10px;
+}
+
+.w50{
+  width: 50%;
+}
+.w40{
+  width: 40%;
+}
+.pl30{
+  margin-left: 30px;
+}
+.pl40{
   margin-left: 40px;
+}
+.pl50{
+  margin-left: 50px;
+}
+.pl60{
+  margin-left: 60px;
+}
+
+img{
+  margin-bottom: 10px;
   text-align: center;
+  position: absolute;
 }
 .card {
   transition: all .25s;
@@ -76,6 +101,7 @@ img{
 h3{
   color: #101F40;
   font-weight: 700;
+  margin-top: 170px;
 }
 
 i{
