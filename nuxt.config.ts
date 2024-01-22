@@ -9,6 +9,12 @@ export default defineNuxtConfig({
   ],
   script: [
     {
+      async: true,
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-37LSN28ET2'
+    }, {
+      children: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-37LSN28ET2');"
+    },
+    {
       src: "@/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
       type: "text/javascript"
     }
