@@ -46,4 +46,12 @@ a:visited {
   font-size: 16px;
 }
 
+@media (max-width: 576px) {
+  .m-3 {
+    margin: 0rem 3rem 0rem 0.5rem !important;
+  }
+}
+
 /* */</style>
+
+

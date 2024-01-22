@@ -59,5 +59,14 @@ img {
     font-size: 1rem;
     text-align: left;
   }
+
+  #txtQuemSomos {
+    font-size: 18px;
+  }
+
+  img {
+    margin-left: -20px;
+  }
+
 }
 </style>

@@ -23,18 +23,18 @@
             <li class="pb-3">Help center</li>
           </ul>
         </div> -->
-        <div class="col-4 text-center mt-5 ">
+        <div class="col-12 col-md-4 text-center mt-5 ">
           <ul>
           <li class="pb-3 ">Razão social: <br><b>IGAM4 Consultoria Científica e Tecnológica Ltda</b></li>
         </ul>
         </div>
-        <div class="col-4 text-center mt-5">
+        <div class="col-12 col-md-4  text-center mt-5">
           
           <ul>
             <li class="pb-3">Localização: <br><b>São Paulo / SP</b></li>
           </ul>
         </div>
-        <div class="col-4 text-center mt-5">
+        <div class="col-12 col-md-4 text-center mt-5">
           <ul>
           <li class="pb-3">Fundação: <br><b>2015</b></li>
         </ul>
@@ -149,11 +149,7 @@ ul {
 
 }
 
-/* .img-container {
-    position: relative;
-    width: 100%;
-    border: 3px dashed white;
-} */
+
 
 img {
   width: 100%;
@@ -173,8 +169,9 @@ img {
 }
 
 @media (max-width: 576px) {
-  .container {
-    height: 80px;
+  .mt-5 {
+    margin-top: 0 !important;
   }
+
 }
 </style>

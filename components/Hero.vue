@@ -24,7 +24,7 @@
   background-size: cover;
   background-attachment: fixed;
   height: 75vh;
-  width: 100vw;
+  width: 100%;
 }
 .banner{
   width: 650px !important;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
   }
 
   #hero img {

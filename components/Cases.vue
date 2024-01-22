@@ -53,9 +53,9 @@
             </div>
             <div class="col-12 empresa">
               Grão Direto </div>
-              <p class="mb-2 descricao">A Lots Group é uma divisão de logística da Scania, montadora de caminhões, junto a
-            eles prestamos serviço através de uma <b>plataforma para monitoramento de chuva em tempo real</b> para
-            auxiliar o planejamento de coleta de uma demanda de produção agrícola.</p>
+              <p class="mb-2 descricao">
+                A Grão Direto é um marketplace de comercialização de grãos. Junto a eles tivemos uma parceria para geração de previsão meteorológica de curto e longo prazo, via API, mapas e conteúdos agrometeorológicos para a base de produtores rurais do marketplace.
+              </p>
           </div>
         </div>
       </div>
