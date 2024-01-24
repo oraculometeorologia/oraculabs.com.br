@@ -8,7 +8,7 @@
       <div class="row ">
 
 
-        <div class="col-md-3 mb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row ">
               <div class="col-md-12 mb-10 pt-2 text-center flex-column ">
@@ -20,7 +20,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 mb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 p-md-5 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row ">
               <div class="col-md-12 mb-10 pt-2 text-center  flex-column">
@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 mb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 p-md-5 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row ">
               <div class="col-md-12 mb-10 pt-2 text-center  flex-column">
@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 mb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 p-md-5 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row">
               <div class="col-md-12 mb-10 pt-2 text-center">
@@ -104,31 +104,6 @@ p {
   padding: 1rem 1rem !important;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.azullogo {
-  background-color: #3894DB;
-}
-
-.cinzaAzulado {
-  background-color: #c8d4ec;
-}
-.azulClaro{
-  background-color:  #a3bef3;
-}
-.laranja {
-  background-color: #EFBB89;
-}
-
-.avermelhado {
-  background-color: #E57861;
-}
-
-.marrom {
-  background-color: #A45C71;
-}
 
 .bg-purple-gradient {
   background-image: linear-gradient(145deg, #564288 , #51558b);

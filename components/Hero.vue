@@ -4,7 +4,7 @@
 
       <div style="max-width: 580px">
         <h1>Soluções digitais para suas necessidades</h1>
-        <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e 
+        <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e
           diminuir seus custos e despesas
         </p>
         <div style="margin-top: 40px;">
@@ -12,9 +12,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="col-lg-6 col-sm-6">
-      <img class="banner" src="/images/banner/hero.webp" />
-    </div> -->
   </section>
 </template>
 
@@ -26,9 +23,7 @@
   height: 75vh;
   width: 100%;
 }
-.banner{
-  width: 650px !important;
-}
+
 p {
   color: white;
   font-size: 24px;
@@ -53,13 +48,6 @@ p {
 }
 
 @media (max-width: 576px) {
-  #hero {
-    background-image: url('/images/banner/hero-bg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100%;
-  }
 
   #hero img {
     margin-top: 80px;

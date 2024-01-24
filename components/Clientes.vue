@@ -46,7 +46,7 @@ const clients = [
 
 <style >
 .client-logo {
-  transform: scale(0.9);
+  transform: scale(0.7);
   transition: all 0.3s ease;
 }
 
