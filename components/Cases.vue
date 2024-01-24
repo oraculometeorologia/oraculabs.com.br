@@ -4,7 +4,7 @@
     <h1 class="mt-5 text-center">Alguns de nossos projetos</h1>
     <hr class="hr-title">
   
-    <div class="row gx-5 ">
+    <div class="row">
       
       <div class="col-sm-12 col-md-4 my-5 ">
         <div class="text-center ">
