@@ -6,7 +6,7 @@
     <div class="text-center card rounded-4" id="quemSomos">
       <div class="mb-4" id="txtQuemSomos">
         <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
-          <img src="/images/logos_oraculabs/logo-oraculabs-white.png" />
+          <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png" />
         </NuxtLink>
       </div>
       <div class="mb-5" id="txtQuemSomos">
@@ -53,6 +53,10 @@ img {
   min-height: 420px;
 }
 
+.imgQuemSomos {
+  width: 100%;
+}
+
 @media (max-width: 576px) {
   p,
   li {
@@ -62,6 +66,8 @@ img {
 
   #txtQuemSomos {
     font-size: 18px;
+    width: 100%;
+    height: auto;
   }
 
   img {
