@@ -116,6 +116,8 @@
       <hr> -->
       <hr> 
       <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">OracuLabs</span> - 2023</p>
+      <p><NuxtLink to="/politica-de-privacidade">Política de privacidade</NuxtLink></p>
+      <p><NuxtLink to="/termos-de-uso">Termos de uso</NuxtLink></p>
     </div>
   </footer>
 </template>
