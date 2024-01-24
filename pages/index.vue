@@ -1,13 +1,17 @@
 <template>
   <NuxtLayout>
     <Hero />
+    <Diferenciais />
     <ProdutosCards />
-    <OutrosServicos />
-    <QuemSomos />
+    
     <!-- <Clients /> -->
-    <Carousel />
+    <!-- <Carousel /> -->
     <!-- <FaleConosco /> -->
     <!-- <Newsletter /> -->
+
+    <Cases/>
+    <Clientes/>
+    <QuemSomos />
     <FixedComponents />
   </NuxtLayout>
 </template>
@@ -20,6 +24,18 @@ onMounted(() => {
 })
 </script>
 
+<style scoped>
+h1{
+  color: #101F40;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 60px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 50px 250px 43px 250px !important;
+  font-weight: 700;
+}
+
+</style>
 <style scoped>
 #top {
   position: relative;
@@ -42,4 +58,6 @@ onMounted(() => {
 .outline {
   outline: 1px solid black;
 }
+
+
 </style>

@@ -1,6 +1,66 @@
 <template>
   <footer class="text-white py-4 bg-dark-blue-1">
     <div class="container">
+
+      
+    <div class="row ">
+        <!-- <div class="col-3">
+          <div class="logo-container pb-4">
+            <a @click="$scrollTo('top')" class="link text-decoration-none text-light" style="cursor: pointer">
+              <img src="/images/logos_oraculo/logo-oraculo-meteorologia-white.png" alt="" class="logo">
+            </a>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore enim, nesciunt itaque est alias!</p>
+        </div>
+
+        <div class="col-3">
+          <h4 class="pb-3">Nossos Serviços</h4>
+          <ul>
+            <li class="pb-3">
+              <NuxtLink :to="{ hash: '#quem-somos' }" class="nav-link">Sobre nós</NuxtLink>
+            </li>
+            <li class="pb-3">Nosso trabalho</li>
+            <li class="pb-3">Help center</li>
+          </ul>
+        </div> -->
+        <div class="col-12 col-md-4 text-center mt-5 ">
+          <ul>
+          <li class="pb-3 ">Razão social: <br><b>IGAM4 Consultoria Científica e Tecnológica Ltda</b></li>
+        </ul>
+        </div>
+        <div class="col-12 col-md-4  text-center mt-5">
+          
+          <ul>
+            <li class="pb-3">Localização: <br><b>São Paulo / SP</b></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 text-center mt-5">
+          <ul>
+          <li class="pb-3">Fundação: <br><b>2015</b></li>
+        </ul>
+        </div>
+        <!-- <div class="col-3">
+          <h4 class="pb-3">Nos siga</h4>
+          <p>
+            <a href="https://www.linkedin.com/company/or%C3%A1culo-meteorologia/" class="icon-link me-3">
+              <i class="bi bi-linkedin" />
+            </a>
+            <a href="https://www.instagram.com/oraculo.me" class="icon-link mx-3">
+              <i class="bi bi-instagram" />
+            </a>
+
+            <a href="https://www.facebook.com/oraculo.me" class="icon-link mx-3">
+              <i class="bi bi-facebook" />
+            </a>
+
+            <a href="https://www.youtube.com/@oraculometeorologia8345" class="icon-link mx-3">
+              <i class="bi bi-youtube" />
+            </a>
+          </p>
+
+        </div> -->
+    </div>
+
       <!-- <div class="row pb-5">
         <div class="col-3">
           <div class="logo-container pb-4">
@@ -54,8 +114,10 @@
       </div>
 
       <hr> -->
-
+      <hr> 
       <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">OracuLabs</span> - 2023</p>
+      <p><NuxtLink to="/politica-de-privacidade">Política de privacidade</NuxtLink></p>
+      <p><NuxtLink to="/termos-de-uso">Termos de uso</NuxtLink></p>
     </div>
   </footer>
 </template>
@@ -89,11 +151,7 @@ ul {
 
 }
 
-/* .img-container {
-    position: relative;
-    width: 100%;
-    border: 3px dashed white;
-} */
+
 
 img {
   width: 100%;
@@ -113,8 +171,9 @@ img {
 }
 
 @media (max-width: 576px) {
-  .container {
-    height: 80px;
+  .mt-5 {
+    margin-top: 0 !important;
   }
+
 }
 </style>

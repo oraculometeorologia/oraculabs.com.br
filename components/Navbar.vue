@@ -20,9 +20,9 @@
           <li class="nav-item">
             <a class="nav-link" @click="$scrollTo('clientes')">Clientes e parceiros</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <NuxtLink class="nav-link" to="/cases">Cases</NuxtLink>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
