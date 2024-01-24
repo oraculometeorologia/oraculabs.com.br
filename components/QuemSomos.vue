@@ -1,10 +1,15 @@
 <template>
   <div class="container pt-4 pb-5">
-    <div id="quemSomos" class="text-center card rounded-4">
-      <NuxtLink @click="$scrollTo('top')" class="mb-4">
-        <img src="/images/logos_oraculabs/logo-oraculabs-white.png" />
-      </NuxtLink>
-      <div class="mb-5">
+    <!-- <div class="container text-center ">
+      <h1>Quem somos</h1>
+    </div> -->
+    <div class="text-center card rounded-4" id="quemSomos">
+      <div class="mb-4" id="txtQuemSomos">
+        <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
+          <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png" />
+        </NuxtLink>
+      </div>
+      <div class="mb-5" id="txtQuemSomos">
         Somos especialistas em software com background científico. <br/>
         Nossa equipe é formada por  doutores em meteorologia, física, oceanografia e desenvolvedores web. <br/>
         Acreditamos que seu negócio terá grandes
@@ -25,7 +30,10 @@
 img {
   max-width: 350px;
   padding-bottom: 20px;
-  width: 100%;
+}
+
+#txtQuemSomos {
+  font-size: 24px;
 }
 
 #txtRazaoSocial {
@@ -41,8 +49,12 @@ img {
   z-index: 10;
   color: white;
   padding: 40px;
-  font-size: 24px;
+  font-size: 2rem;
   min-height: 420px;
+}
+
+.imgQuemSomos {
+  width: 100%;
 }
 
 @media (max-width: 576px) {
@@ -52,12 +64,15 @@ img {
     text-align: left;
   }
 
-  #quemSomos {
+  #txtQuemSomos {
     font-size: 18px;
+    width: 100%;
+    height: auto;
   }
 
   img {
-  width: 80%;
-}
+    margin-left: -20px;
+  }
+
 }
 </style>
