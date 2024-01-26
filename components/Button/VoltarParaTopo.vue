@@ -1,7 +1,11 @@
 <template>
-  <button @click="$scrollTo('top')" class="btn rounded-circle bg-blue-1 text-white" title="Voltar para o topo">
-    <i class="bi bi-chevron-up fs-4"></i>
-  </button>
+
+  <NuxtLink @click="$scrollTo('topLinks')">
+    <button class="btn rounded-circle bg-blue-1 text-white" title="Voltar para o topo">
+      <i class="bi bi-chevron-up fs-4"></i>
+    </button>
+  </NuxtLink>
+
 </template>
 
 <script setup>

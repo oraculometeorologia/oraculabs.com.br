@@ -145,13 +145,10 @@ i {
 }
 
 .tarjaTitulo {
-
   color: #101F40;
   font-size: 16px;
   font-weight: bolder;
-
   text-align: left;
-
 }
 
 .tituloCase {
@@ -169,7 +166,7 @@ i {
 
 
 .descricao {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .g-5, .gx-5 {
@@ -180,19 +177,4 @@ i {
   color: #3894DB !important;
 }
 
-.cinzaAzulado {
-  color: #c8d4ec;
-}
-
-.laranja2 {
-  color: #EFBB89;
-}
-
-.avermelhado2 {
-  color: #E57861;
-}
-
-.marrom2 {
-  color: #A45C71;
-}
 </style>

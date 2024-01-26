@@ -7,7 +7,7 @@
         <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e
           diminuir seus custos e despesas
         </p>
-        <div style="margin-top: 40px;">
+        <div style="margin-top: 20px;">
           <CtaButton />
         </div>
       </div>
@@ -20,8 +20,8 @@
   background-image: url('/images/banner/bg-hero.jpg');
   background-size: cover;
   background-attachment: fixed;
-  height: 75vh;
   width: 100%;
+  min-height: 550px;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 
 #hero img {
   width: 30%;
-  margin-top: 120px;
+  margin-top: 90px;
   margin-right: auto;
   padding-right: 14px;
 }
@@ -41,24 +41,40 @@ p {
   text-align: left;
   font-size: 3.2rem;
   font-family: 'Oxygen', sans-serif;
-  padding-top: 130px;
+  padding-top: 80px;
   margin-bottom: 30px;
   color: white;
   font-weight: bolder;
 }
 
+
+@media (max-width: 1000px) {
+  #hero {
+    min-height: 540px;
+  }
+
+  #hero h1 {
+  font-size: 2.7rem;
+}
+
+}
+
 @media (max-width: 576px) {
+
+  #hero {
+    background-position-x: center;
+    min-height: 530px;
+  }
 
   #hero img {
     margin-top: 80px;
     width: 50%;
   }
 
-  .btn-primary {
-    padding: 10px;
-    margin: 20px;
-    font-size: 24px !important;
+  .container{
+    margin-left: 12px;
   }
+
 
   #hero h1 {
     font-size: 2.6rem;
@@ -73,6 +89,8 @@ p {
     line-height: 2.1rem;
   }
 
-
 }
+
+
+
 </style>

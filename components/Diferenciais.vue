@@ -5,18 +5,18 @@
         <div class="col-lg-3 col-md-6 col-sm-12  mb-3">
           <div class="card h-100 p-4 p-md-5 "> <!--shadow-sm -->
             <img class="w50 pl50" src="/images/icon/foco.png" />
-            <h3>Foco. total no seu sucesso</h3>
+            <h3>Foco total no seu sucesso</h3>
             <p>Aumente o seu poder de tomada de decisões com nossos sistemas customizados</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12  mb-3  azullogo ">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 azullogo ">
           <div class="card h-100 p-4 p-md-5 ">
             <img class="w60 pl40" src="/images/icon/mao2.png" style="padding-bottom: 0;" />
             <h3>Se torne líder de mercado</h3>
             <p>Nós cuidamos da parte tecnológica para você se dedicar a crescer seu negócio.</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12  mb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 p-md-5  laranja">
             <img class="w50 pl50" src="/images/icon/mordomo.png" />
             <h3>Experiência<br />única</h3>
@@ -24,7 +24,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12  mb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 p-md-5  avermelhado ">
 
             <img class="w60 pl40" src="/images/icon/dor.png" />
@@ -41,24 +41,11 @@
 <script setup></script>
 
 <style scoped>
-.w70 {
-  width: 70%;
-}
-
 .w60 {
   width: 60%;
 }
-
 .w50 {
   width: 50%;
-}
-
-.w40 {
-  width: 40%;
-}
-
-.pl30 {
-  margin-left: 30px;
 }
 
 .pl40 {
@@ -67,10 +54,6 @@
 
 .pl50 {
   margin-left: 50px;
-}
-
-.pl60 {
-  margin-left: 60px;
 }
 
 img {
@@ -119,17 +102,9 @@ i {
   height: 100px;
 }
 
-.fs-1 {
-  font-size: calc(1.375rem + 2.5vw) !important;
-}
-
 /* passar para constantes TODO */
 .azullogo {
   color: #3894DB;
-}
-
-.cinzaAzulado {
-  color: #c8d4ec;
 }
 
 .laranja {
@@ -139,13 +114,4 @@ i {
 .avermelhado {
   color: #E57861;
 }
-
-.marrom {
-  color: #A45C71;
-}</style>
-
-
-
-.fs-1 {
-  font-size: calc(1.375rem + 3.5vw)!important;
-}
+</style>

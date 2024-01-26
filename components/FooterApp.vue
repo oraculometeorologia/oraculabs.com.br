@@ -1,9 +1,9 @@
 <template>
-  <footer class="text-white py-4 bg-dark-blue-1">
+  <footer class="text-white pt-5 bg-dark-blue-1">
     <div class="container">
 
-      
-    <div class="row ">
+
+      <div class="row mt-3 ">
         <!-- <div class="col-3">
           <div class="logo-container pb-4">
             <a @click="$scrollTo('top')" class="link text-decoration-none text-light" style="cursor: pointer">
@@ -23,22 +23,32 @@
             <li class="pb-3">Help center</li>
           </ul>
         </div> -->
-        <div class="col-12 col-md-4 text-center mt-5 ">
-          <ul>
-          <li class="pb-3 ">Razão social: <br><b>IGAM4 Consultoria Científica e Tecnológica Ltda</b></li>
-        </ul>
+        <div class="col-lg-1 col-sm-2 col-md-1 text-left">
+          <img src="/images/icon/fundacao.png" alt="">
         </div>
-        <div class="col-12 col-md-4  text-center mt-5">
-          
+
+        <div class="col-lg-7 col-sm-8 col-md-8 text-left  ">
           <ul>
-            <li class="pb-3">Localização: <br><b>São Paulo / SP</b></li>
+            <li><b>UMA EMPRESA DO GRUPO:</b> </li>
+            <li>IGAM4 Consultoria Científica e Tecnológica Ltda</li>
+            <li>São Paulo / SP</li>
           </ul>
         </div>
-        <div class="col-12 col-md-4 text-center mt-5">
+
+
+        <div class="col-lg-4 col-sm-12 col-md-12 mt-3">
           <ul>
-          <li class="pb-3">Fundação: <br><b>2015</b></li>
-        </ul>
+            <li class="pb-3 text-right ">
+              <NuxtLink to="/politica-de-privacidade">Política de privacidade</NuxtLink>
+            </li>
+
+            <li class="pb-3 text-right ">
+              <NuxtLink to="/termos-de-uso">Termos de uso</NuxtLink>
+            </li>
+
+          </ul>
         </div>
+
         <!-- <div class="col-3">
           <h4 class="pb-3">Nos siga</h4>
           <p>
@@ -59,7 +69,7 @@
           </p>
 
         </div> -->
-    </div>
+      </div>
 
       <!-- <div class="row pb-5">
         <div class="col-3">
@@ -114,10 +124,14 @@
       </div>
 
       <hr> -->
-      <hr> 
-      <p class="text-center"><span class="copyright">&copy;</span> <span class="direitos-reservados">OracuLabs</span> - 2023</p>
-      <p><NuxtLink to="/politica-de-privacidade">Política de privacidade</NuxtLink></p>
-      <p><NuxtLink to="/termos-de-uso">Termos de uso</NuxtLink></p>
+      <hr>
+      <div class="row ">
+        <div class="col-12 ">
+          <p class="text-center"><span class="copyright">&copy;</span> 
+            <span class="direitos-reservados">OracuLabs</span> - 2024</p>
+        </div>
+      </div>
+
     </div>
   </footer>
 </template>
@@ -126,10 +140,20 @@
 </script>
 
 <style scoped>
+
+hr{
+  margin: 0 0 5px 0;
+}
+.text-right {
+  text-align: right;
+}
+
 a {
   text-decoration: none;
   width: auto;
   display: inline-block;
+  color: white;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -143,18 +167,18 @@ a:hover {
 
 li {
   list-style: none;
+  margin-top: 4px;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  font-size: 14px;
 
 }
 
-
-
 img {
-  width: 100%;
+  width: 80px;
 }
 
 .img-link {
