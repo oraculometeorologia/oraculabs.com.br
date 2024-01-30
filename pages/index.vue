@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <Hero />
+    
     <Diferenciais />
     <ProdutosCards />
     
@@ -10,7 +10,7 @@
     <!-- <Newsletter /> -->
 
     <Cases/>
-    <!-- <Blog/> -->
+    <Blog/>
     <Clientes/>
     <QuemSomos />
     <FixedComponents />

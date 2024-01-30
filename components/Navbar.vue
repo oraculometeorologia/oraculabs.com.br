@@ -5,7 +5,7 @@
         <img id="navbar-logo" src="/images/logos_oraculabs/logo-oraculabs.png" />
       </NuxtLink>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <button  aria-label="Menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
 

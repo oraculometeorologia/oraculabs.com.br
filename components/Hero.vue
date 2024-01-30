@@ -5,7 +5,7 @@
       <div style="max-width: 580px">
         <h1>Soluções digitais para suas necessidades</h1>
         <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e
-          diminuir seus custos e despesas
+          diminuir seus custos e despesas.
         </p>
         <div style="margin-top: 20px;">
           <CtaButton />
@@ -34,7 +34,6 @@ p {
   width: 30%;
   margin-top: 90px;
   margin-right: auto;
-  padding-right: 14px;
 }
 
 #hero h1 {

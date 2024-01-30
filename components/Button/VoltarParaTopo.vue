@@ -1,7 +1,7 @@
 <template>
 
   <NuxtLink @click="$scrollTo('topLinks')">
-    <button class="btn rounded-circle bg-blue-1 text-white" title="Voltar para o topo">
+    <button  aria-label="Voltar para o Topo" class="btn rounded-circle bg-blue-1 text-white" title="Voltar para o topo">
       <i class="bi bi-chevron-up fs-4"></i>
     </button>
   </NuxtLink>

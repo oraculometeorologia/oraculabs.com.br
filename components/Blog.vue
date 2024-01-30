@@ -1,13 +1,9 @@
 <template>
-    <section class="py-4 " id="produtos">
+    <section  aria-labelledby="Blog" class="py-4 " id="produtos">
         <div class="container text-center">
-            <h1 class="mt-5">Acontece...</h1>
+            <h1 >Acontece...</h1> 
             <hr class="hr-title">
-
-
             <div class="row ">
-
-
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
