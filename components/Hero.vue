@@ -70,11 +70,6 @@ p {
     width: 50%;
   }
 
-  .container{
-    margin-left: 12px;
-  }
-
-
   #hero h1 {
     font-size: 2.6rem;
     font-family: 'Oxygen', sans-serif;
