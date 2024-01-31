@@ -1,21 +1,38 @@
 <template>
   <section id="hero" class="text-left">
     <div class="container">
-
-      <div style="max-width: 580px">
-        <h1>Soluções digitais para suas necessidades</h1>
-        <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e
-          diminuir seus custos e despesas.
-        </p>
-        <div style="margin-top: 20px;">
-          <CtaButton />
+      <div>
+        <div class="row ">
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
+            <h1>Soluções digitais para suas necessidades</h1>
+            <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e
+              diminuir seus custos e despesas.
+            </p>
+            <div style="margin-top: 20px;">
+              <CtaButton />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 text-right ">
+            <img src="../public/images/hero/hero_art.svg" />
+          </div>
         </div>
+
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.text-right {
+  text-align: right;
+}
+
+img {
+  text-align: right !important;
+  margin: 100px 0 0 0;
+  width: 65%;
+}
+
 #hero {
   background-image: url('/images/banner/bg-hero.jpg');
   background-size: cover;
@@ -30,11 +47,6 @@ p {
   line-height: 40px;
 }
 
-#hero img {
-  width: 30%;
-  margin-top: 90px;
-  margin-right: auto;
-}
 
 #hero h1 {
   text-align: left;
@@ -53,7 +65,18 @@ p {
   }
 
   #hero h1 {
-  font-size: 2.7rem;
+    font-size: 2.2rem;
+  }
+
+  #hero p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+
+  img {
+  text-align: right !important;
+  margin: 100px 0 0 0;
+  width: 85%;
 }
 
 }
@@ -62,19 +85,14 @@ p {
 
   #hero {
     background-position-x: center;
-    min-height: 530px;
-  }
-
-  #hero img {
-    margin-top: 80px;
-    width: 50%;
+    min-height: 560px;
   }
 
   #hero h1 {
     font-size: 2.6rem;
     font-family: 'Oxygen', sans-serif;
-    padding-top: 70px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
     line-height: 3rem;
   }
 
@@ -83,8 +101,15 @@ p {
     line-height: 2.1rem;
   }
 
+  .text-right {
+    text-align: center;
+  }
+
+  img {
+    text-align: center !important;
+    margin: 0 0 20px 0;
+    width: 65%;
+  }
+
 }
-
-
-
 </style>
