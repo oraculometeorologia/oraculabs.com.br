@@ -5,7 +5,7 @@
       <title>Desenvolvimento de Software :: OracuLabs</title>
       <meta name="description" content="A OracuLabs é especializada em serviços de Desenvolvimento de Software para atender às necessidades específicas das empresas.">
       <meta name="keywords" content="Desenvolvimento de Software, Software Empresarial, Soluções Personalizadas, Desenvolvimento Web">
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="index">
       <link rel="canonical" href="https://oraculabs.com.br/">
   </head>
   <Navbar id="top" />

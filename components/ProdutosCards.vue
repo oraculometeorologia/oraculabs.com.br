@@ -1,5 +1,5 @@
 <template>
-  <section class="py-4 " id="produtos">
+  <section aria-label="O que oferecemos"  class="py-4 " id="produtos">
     <div class="container text-center">
       <h1 class="mt-5">O que oferecemos</h1>
       <hr class="hr-title">
@@ -12,7 +12,7 @@
           <div class="card h-100 p-4 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row ">
               <div class="col-md-12 mb-10 pt-2 text-center flex-column ">
-                <i class="bi bi-database fs-1 pb-2 text-white" />
+                <i class="bi bi-database fs-1 pb-2 text-white" aria-label="ícone banco de dados"  ></i>
                 <h3 class="mt-2 text-white">Organize seus dados</h3>
                 <p class="mt-3 text-white">Centralize seus dados com segurança e fácil acesso para extrair informações relevantes.</p>
               </div>
@@ -24,7 +24,7 @@
           <div class="card h-100 p-4 p-md-5 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row ">
               <div class="col-md-12 mb-10 pt-2 text-center  flex-column">
-                <i class="bi bi-gear fs-1 pb-2 text-white" />
+                <i class="bi bi-gear fs-1 pb-2 text-white" aria-label="ícone engranagem" ></i>
                 <h3 class="mt-2 text-white">Automatize seus processos</h3>
                 <p class="mt-3 text-white">Facilite a integração dos seus sistemas e aumente a produtividade de sua equipe.</p>
               </div>
@@ -36,7 +36,7 @@
           <div class="card h-100 p-4 p-md-5 shadow-sm bg-purple-gradient flex-column justify-content-center">
             <div class="row ">
               <div class="col-md-12 mb-10 pt-2 text-center  flex-column">
-                <i class="bi bi-bar-chart-line-fill fs-1 pb-2 text-white" />
+                <i class="bi bi-bar-chart-line-fill fs-1 pb-2 text-white" aria-label="ícone gráfico"  ></i>
                 <h3 class="mt-2 text-white">Visualize informações estratégicas </h3>
                 <p class="mt-3 text-white">Acompanhe gráficos e relatórios personalizados para eliminar gargalos na sua empresa.</p>
               </div>
@@ -49,7 +49,7 @@
             <div class="row">
               <div class="col-md-12 mb-10 pt-2 text-center">
                 <div class="">
-                  <i class="bi bi-globe fs-1 pb-2 text-white" />
+                  <i class="bi bi-globe fs-1 pb-2 text-white" aria-label="ícone globo"  ></i>
                   <h3 class="mt-2 text-white">Evolua seu software</h3>
                   <p class="mt-3 text-white">Modernize seus sistemas e aumente sua competitividade no mercado.</p>
                 </div>

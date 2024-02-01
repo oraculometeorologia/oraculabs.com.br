@@ -1,12 +1,12 @@
 <template>
-  <section id="clientes">
+  <section aria-label="Empresas que já contaram conosco" id="clientes">
     <div class="container pb-4 text-center">
       <h1 class="mt-5 text-center">Empresas que já contaram conosco</h1>
       <hr class="hr-title">
 
       <div class="row mb-4 mb-md-5 gx-4">
         <div v-for="value in clients" class="col-sm-6 col-md-3">
-          <img :src="'/images/clients/logos/' + value.imgUrl" alt="" class="w-5 client-logo">
+          <img :src="'/images/clients/logos/' + value.imgUrl" :alt="value.alt" class="w-5 client-logo" >
         </div>
       </div>
     </div>

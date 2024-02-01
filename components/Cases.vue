@@ -1,5 +1,5 @@
 <template>
-<section class="pt-4" id="projetos">
+<section aria-label="Alguns de nossos projetos" class="pt-4" id="projetos">
   <div class="container mt-4">
     <h1 class="mt-5 text-center">Alguns de nossos projetos</h1>
     <hr class="hr-title">
@@ -10,7 +10,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 mb-2">
-              <i class="bi bi-display pb-2 azulLogo2 " />
+              <i class="bi bi-display pb-2 azulLogo2 "  aria-label="ícone display"   ></i>
             </div>
             <div class="col-12 tituloCase">
               ERP Customizado
@@ -28,7 +28,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 mb-2">
-              <i class="bi bi-pin-map pb-2 azulLogo2 " />
+              <i class="bi bi-pin-map pb-2 azulLogo2 " aria-label="ícone mapa"  ></i>
             </div>
             <div class="col-12 tituloCase   ">
               Plataforma de Georreferenciamento
@@ -46,7 +46,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 mb-2">
-              <i class="bi bi-gear-wide pb-2 azulLogo2 " />
+              <i class="bi bi-gear-wide pb-2 azulLogo2 " aria-label="ícone engrenagem"  ></i>
             </div>
             <div class="col-12 tituloCase   ">
               Automatização de APIs
@@ -64,7 +64,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 mb-2">
-              <i class="bi bi-pie-chart pb-2 azulLogo2 " />
+              <i class="bi bi-pie-chart pb-2 azulLogo2 " aria-label="ícone gráfico" ></i>
             </div>
             <div class="col-12 tituloCase   ">
               Visualização de Dados
@@ -82,7 +82,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 mb-2">
-              <i class="bi bi-lightbulb pb-2 azulLogo2 " />
+              <i class="bi bi-lightbulb pb-2 azulLogo2 " aria-label="ícone luz"  ></i>
             </div>
             <div class="col-12 tituloCase   ">
               App para Gestão Operacional
@@ -101,7 +101,7 @@
         <div class="text-center ">
           <div class="row ">
             <div class="col-12 mb-2">
-              <i class="bi bi-database-fill-lock pb-2 azulLogo2 " />
+              <i class="bi bi-database-fill-lock pb-2 azulLogo2 " aria-label="ícone banco de Dados"  ></i>
             </div>
             <div class="col-12 tituloCase   ">
               Laudo de Sinistro para Seguros
@@ -139,17 +139,6 @@ i {
   font-size: 3rem !important;
 }
 
-.card {
-  padding: 0px 12px 10px 13px;
-  border: 0 !important;
-}
-
-.tarjaTitulo {
-  color: #101F40;
-  font-size: 16px;
-  font-weight: bolder;
-  text-align: left;
-}
 
 .tituloCase {
   font-size: 20px !important;
@@ -169,9 +158,6 @@ i {
   font-size: 16px;
 }
 
-.g-5, .gx-5 {
-    --bs-gutter-x: 6rem;
-}
 
 .azulLogo2 {
   color: #3894DB !important;

@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="text-left">
+  <section aria-label="Oraculabs - Soluções digitais" id="hero" class="text-left">
     <div class="container">
       <div>
         <div class="row ">
@@ -13,7 +13,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 text-right ">
-            <img src="../public/images/hero/hero_art.svg" />
+            <img src="../public/images/hero/hero_art.svg"  alt="Oraculabs - Soluções digitais" aria-label="Oraculabs - Soluções digitais"/>
           </div>
         </div>
 

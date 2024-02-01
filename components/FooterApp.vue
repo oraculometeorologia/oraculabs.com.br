@@ -24,7 +24,7 @@
           </ul>
         </div> -->
         <div class="col-lg-1 col-sm-2 col-md-1 text-left">
-          <img src="/images/icon/fundacao.png" alt="">
+          <img src="/images/icon/fundacao.png"  alt="Fundação" aria-label="Fundação">
         </div>
 
         <div class="col-lg-7 col-sm-8 col-md-8 text-left  ">

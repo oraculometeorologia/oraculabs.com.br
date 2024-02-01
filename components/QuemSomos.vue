@@ -6,7 +6,7 @@
     <div class="text-center card rounded-4" id="quemSomos">
       <div class="mb-4" id="txtQuemSomos">
         <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
-          <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png" />
+          <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png"   alt="Oraculabs - Soluções digitais" aria-label="Oraculabs - Soluções digitais"/>
         </NuxtLink>
       </div>
       <div class="mb-5" id="txtQuemSomos">

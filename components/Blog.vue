@@ -1,5 +1,5 @@
 <template>
-    <section  aria-labelledby="Blog" class="py-4 " id="produtos">
+    <section  aria-label="Blog" class="py-4 " id="produtos">
         <div class="container text-center">
             <h1 >Acontece...</h1> 
             <hr class="hr-title">
@@ -8,7 +8,7 @@
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
                             <div>
-                                <img src="/images/blog/blog1.jpg" />
+                                <img src="/images/blog/blog1.jpg"  alt="Organize seus dados" aria-label="Organize seus dados"/>
                             </div>
                             <div>
                                 <h4>Organize seus dados</h4>
@@ -27,7 +27,7 @@
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
                             <div>
-                                <img src="/images/blog/blog2.jpg" />
+                                <img src="/images/blog/blog2.jpg" alt="Organize seus dados" aria-label="Organize seus dados"/>
                             </div>
                             <div>
                                 <h4>Organize seus dados</h4>
@@ -45,7 +45,7 @@
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
                             <div>
-                                <img src="/images/blog/blog3.jpeg" />
+                                <img src="/images/blog/blog3.jpeg" alt="Organize seus dados" aria-label="Organize seus dados"/>
                             </div>
                             <div>
                                 <h4>Organize seus dados</h4>
