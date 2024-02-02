@@ -10,6 +10,7 @@
     <!-- <Newsletter /> -->
 
     <Cases/>
+    <Blog/>
     <Clientes/>
     <QuemSomos />
     <FixedComponents />

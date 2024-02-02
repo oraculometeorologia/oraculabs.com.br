@@ -2,13 +2,14 @@
 
 <NuxtLayout>
   <div class="container my-5">
-
+    <div class="card h-100  p-md-5 ">
     <div class="pb-5">
-      <h1 class="heading pb-3">Termos de Uso</h1>
+      
+      <h2 class="fs-1 mb-4 text-center">Termos de Uso</h2>
       <p><b>Última atualização: 22/01/2024</b></p>
       <p>Bem-vindo(a) ao website OracuLabs! Ao acessar ou utilizar nosso site, você concorda em cumprir e estar vinculado aos seguintes termos e condições de uso. Se você não concordar com qualquer disposição aqui presente, por favor, não utilize nosso site.</p>
     </div>
-
+  
     <section>
       <h2>1. Uso do Site</h2>
       <p><b>1.1.</b> Licença de Uso: Concedemos a você uma licença limitada, não exclusiva e intransferível para acessar e usar nosso site apenas para fins pessoais e não comerciais.</p>
@@ -49,7 +50,7 @@
       <p>Se tiver dúvidas sobre estes Termos de Uso, entre em contato conosco através do WhatsApp (11) 96473-7564.</p>
       <p>Ao utilizar nosso site, você concorda com os termos destes Termos de Uso. Obrigado por utilizar o OracuLasbs.</p>
     </section>
-
+  </div>
   </div>
 
 </NuxtLayout>

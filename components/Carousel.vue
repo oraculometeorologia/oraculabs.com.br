@@ -1,5 +1,5 @@
 <template>
-  <section class="py-4 py-md-5 bg-blue">
+  <section aria-label="Destaques na Mídia" class="py-4 py-md-5 bg-blue">
     <div class="container">
       <h2 class="fs-1 py-4 py-md-5 text-center">Destaques</h2>
       
@@ -34,11 +34,11 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button  aria-label="Clique para enviar"  class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button  aria-label="Clique para enviar" class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>

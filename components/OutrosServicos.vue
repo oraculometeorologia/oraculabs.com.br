@@ -1,5 +1,5 @@
 <template>
-  <section class="py-4 py-md-5 bg-blue">
+  <section aria-label="Listas de Serviços" class="py-4 py-md-5 bg-blue">
     <div class="container">
       <h2 class="fs-1 py-4 py-md-5 mb-4 text-center">Outros serviços</h2>
       <!-- <p class="pt-4 col-7">
@@ -16,10 +16,6 @@
               <li>Implementações baseadas em redes neurais;</li>
               <li>Implementações baseadas em aprendizado de máquina.</li>
             </ul>
-            <!-- <p class="pb-4">
-                <span class="fs-5 hover-animation">Saiba mais</span>
-                <i class="bi bi-chevron-right" />
-            </p> -->
           </div>
 
           <div class="mb-5">
@@ -30,10 +26,6 @@
               <li>Automatizações de processos com Python, Cron e Shell;</li>
               <li>Modelagem matemática.</li>
             </ul>
-            <!-- <p class="pb-4">
-                <span class="fs-5 hover-animation">Saiba mais</span>
-                <i class="bi bi-chevron-right" />
-            </p> -->
           </div>
 
           <div class="mb-5">
@@ -45,10 +37,6 @@
               <li>Organização de repositórios e versionamentos de códigos;</li>
               <li>Websites dinâmicos ou estáticos.</li>
             </ul>
-            <!-- <p class="pb-4">
-                <span class="fs-5 hover-animation">Saiba mais</span>
-                <i class="bi bi-chevron-right" />
-            </p> -->
           </div>
         </div>
 
@@ -63,10 +51,6 @@
               <li>Estudos, levantamentos e laudos meteorológicos;</li>
               <li>Modelagem hidrológica.</li>
             </ul>
-            <!-- <p class="pb-4">
-                <span class="fs-5 hover-animation">Saiba mais</span>
-                <i class="bi bi-chevron-right" />
-            </p> -->
           </div>
 
           <div class="mb-5">
@@ -77,10 +61,6 @@
               <li>Previsões de ondas e correntes;</li>
               <li>Estudos e levantamentos.</li>
             </ul>
-            <!-- <p class="pb-4">
-                <span class="fs-5 hover-animation">Saiba mais</span>
-                <i class="bi bi-chevron-right" />
-            </p> -->
           </div>
         </div>
       </div>

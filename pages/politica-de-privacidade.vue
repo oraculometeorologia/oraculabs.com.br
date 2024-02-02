@@ -3,13 +3,12 @@
 <NuxtLayout>
   <div class="container my-5">
 
-    <div class="pb-5">
-      <h1 class="heading pb-3">Política de Privacidade</h1>
+    <div class="card h-100 p-4 p-md-5 pb-5">
+      <h2 class="fs-1 mb-4 text-center">Política de Privacidade</h2>
       <p><b>Última atualização: 22/01/2024</b></p>
       <p>Bem-vindo(a)! O website OracuLabs é dedicado ao desenvolvimento de softwares. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações pessoais ao utilizar nossos serviços.</p>
-      <p>Ao acessar ou utilizar nosso site, você concorda com os termos descritos nesta Política de Privacidade. Se você não concordar com qualquer disposição aqui presente, por favor, não utilize nosso site.</p>
-    </div>
-  
+      <p>Ao acessar ou utilizar nosso site, você concorda com os termos descritos nesta Política de Privacidade. Se você não concordar com qualquer disposição aqui presente, por favor, não utilize nosso site.</p><br/>
+
     <section>
       <h2>1. Informações Coletadas</h2>
       <p><b>1.1.</b> Informações Pessoais: Podemos coletar informações pessoais, como nome, endereço de e-mail, e outras informações que você nos fornece voluntariamente ao preencher formulários ou interagir conosco.</p>
@@ -58,6 +57,9 @@
       <p>Se tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco através do WhatsApp (11) 96473-7564.</p>
       <p>Ao utilizar nosso site, você concorda com os termos desta Política de Privacidade. Obrigado por confiar em nós.</p>
     </section>
+</div>
+    <HomeButton/>
+
   </div>
 </NuxtLayout>
 </template>

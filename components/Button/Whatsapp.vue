@@ -4,7 +4,7 @@
     title="Share on whatsapp"
     class="btn rounded-circle d-inline-block"
     target="_blank">
-    <i class="bi bi-whatsapp"></i>
+    <i class="bi bi-whatsapp" aria-label="ícone whatsapp "  ></i>
   </a>
 </template>
 

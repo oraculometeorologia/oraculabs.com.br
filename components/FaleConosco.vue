@@ -22,7 +22,7 @@
                     <input type="text" placeholder="Como nos conheceu" class="form-control col m-2">
                 </div>
 
-                <button type="button" class="btn btn-primary mt-3 px-5 py-2">Enviar</button>
+                <button   aria-label="Clique para enviar"  type="button" class="btn btn-primary mt-3 px-5 py-2">Enviar</button>
             </form>
         </div>
 </template>
