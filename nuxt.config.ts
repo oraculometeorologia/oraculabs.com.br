@@ -21,6 +21,15 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      title: 'Desenvolvimento de Software :: OracuLabs',
+      meta: [
+        { hid: 'description', name: 'description', content: 'A OracuLabs é especializada em serviços de Desenvolvimento de Software para atender às necessidades específicas das empresas.' },
+        { hid: 'keywords', name: 'keywords', content: 'Desenvolvimento de Software, Software Empresarial, Soluções Personalizadas, Desenvolvimento Web' },
+        { hid: 'robots', name: 'robots', content: 'index' },
+        { hid: 'canonical', name: 'canonical', content: 'https://oraculabs.com.br/' },
+        { hid: 'viewport', name: 'viewport', content: 'initial-scale=1.0' },
+        // ... outras metatags globais, como Open Graph (OG) e Twitter
+      ],
       link: [
         {
           href: "https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap", rel: "stylesheet"
