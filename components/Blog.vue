@@ -1,5 +1,5 @@
 <template>
-    <section  aria-label="Blog" class="py-4 " id="produtos">
+    <section  aria-label="Blog" class="py-4 " id="blog">
         <div class="container text-center">
             <h1 >Acontece...</h1> 
             <hr class="hr-title">

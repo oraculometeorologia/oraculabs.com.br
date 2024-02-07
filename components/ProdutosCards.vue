@@ -1,5 +1,5 @@
 <template>
-  <section aria-label="O que oferecemos"  class="py-4 " id="produtos">
+  <section aria-label="O que oferecemos"  class="py-4 ">
     <div class="container text-center">
       <h1 class="mt-5">O que oferecemos</h1>
       <hr class="hr-title">
