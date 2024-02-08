@@ -1,6 +1,6 @@
 <template>
-  <section aria-label="Empresas que já contaram conosco" id="clientes">
-    <div class="container pb-4 text-center">
+  <section aria-label="Empresas que já contaram conosco" >
+    <div class="container pb-4 text-center" id="clientes">
       <h1 class="mt-5 text-center">Empresas que já contaram conosco</h1>
       <hr class="hr-title">
 

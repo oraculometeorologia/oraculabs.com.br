@@ -3,10 +3,10 @@
     <!-- <div class="container text-center ">
       <h1>Quem somos</h1>
     </div> -->
-    <div class="text-center card rounded-4" id="quemSomos">
+    <div class="text-center card rounded-4" id="divQuemSomos">
       <div class="mb-4" id="txtQuemSomos">
-        <NuxtLink @click="$scrollTo('top')" class="navbar-brand" id="logo">
-          <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png"   alt="Oraculabs - Soluções digitais" aria-label="Oraculabs - Soluções digitais"/>
+        <NuxtLink to="/#hero"  class="navbar-brand" id="logoQuemSomos">
+          <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png"  alt="Oraculabs" aria-label="Oraculabs"/>
         </NuxtLink>
       </div>
       <div class="mb-5" id="txtQuemSomos">
@@ -41,7 +41,7 @@ img {
   font-size: 20px;
 }
 
-#quemSomos {
+#divQuemSomos {
   background-image: url('/images/banner/bg-hero.jpg');
   background-size: cover;
   margin-bottom: -70px;

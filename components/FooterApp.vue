@@ -153,7 +153,6 @@ a {
   width: auto;
   display: inline-block;
   color: white;
-  text-decoration: underline;
 }
 
 a:visited {

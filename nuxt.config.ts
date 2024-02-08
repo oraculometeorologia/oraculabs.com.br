@@ -25,9 +25,11 @@ export default defineNuxtConfig({
       meta: [
         { hid: 'description', name: 'description', content: 'A OracuLabs é especializada em serviços de Desenvolvimento de Software para atender às necessidades específicas das empresas.' },
         { hid: 'keywords', name: 'keywords', content: 'Desenvolvimento de Software, Software Empresarial, Soluções Personalizadas, Desenvolvimento Web' },
-        { hid: 'robots', name: 'robots', content: 'index' },
+        { hid: 'robots', name: 'robots', content: 'index,follow' },
         { hid: 'canonical', name: 'canonical', content: 'https://oraculabs.com.br/' },
         { hid: 'viewport', name: 'viewport', content: 'initial-scale=1.0' },
+        { hid: 'google-site-verification', name: 'google-site-verification', content: 'QZnvLTah8xtIQAxp959VR6yx0rfH6WWsl5thLzi1IbI' },
+        
         // ... outras metatags globais, como Open Graph (OG) e Twitter
       ],
       link: [
