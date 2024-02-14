@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@/node_modules/bootstrap/dist/css/bootstrap.min.css"
   ],
   script: [
+    // Bootstrap
     {
       async: true,
       src: 'https://www.googletagmanager.com/gtag/js?id=G-37LSN28ET2'
