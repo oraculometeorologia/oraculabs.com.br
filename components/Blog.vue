@@ -1,14 +1,15 @@
 <template>
-    <section  aria-label="Blog" class="py-4 " id="blog">
+    <section aria-label="Blog" class="py-4 " id="blog">
         <div class="container text-center">
-            <h1 >Acontece...</h1> 
+            <h1>Acontece...</h1>
             <hr class="hr-title">
-            <div class="row ">
+            <div id="blog-scroll" class="row ">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
                             <div>
-                                <img src="/images/blog/blog1.jpg"  alt="Organize seus dados" aria-label="Organize seus dados"/>
+                                <img src="/images/blog/blog1.jpg" alt="Organize seus dados"
+                                    aria-label="Organize seus dados" />
                             </div>
                             <div>
                                 <h4>Organize seus dados</h4>
@@ -27,7 +28,8 @@
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
                             <div>
-                                <img src="/images/blog/blog2.jpg" alt="Organize seus dados" aria-label="Organize seus dados"/>
+                                <img src="/images/blog/blog2.jpg" alt="Organize seus dados"
+                                    aria-label="Organize seus dados" />
                             </div>
                             <div>
                                 <h4>Organize seus dados</h4>
@@ -45,7 +47,8 @@
                     <div class="card h-100  shadow-sm bg-purple-gradient flex-column justify-content-center">
                         <div class="row ">
                             <div>
-                                <img src="/images/blog/blog3.jpeg" alt="Organize seus dados" aria-label="Organize seus dados"/>
+                                <img src="/images/blog/blog3.jpeg" alt="Organize seus dados"
+                                    aria-label="Organize seus dados" />
                             </div>
                             <div>
                                 <h4>Organize seus dados</h4>
@@ -58,23 +61,35 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
-
-
         </div>
     </section>
 </template>
 
-<script setup></script>
+  
+<script setup>
+
+onMounted(() => {
+    window.addEventListener('scroll', function () {
+        const rect = document.getElementById("blog-scroll").getBoundingClientRect();
+        if (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        ) {
+            document.title = "Oraculabs | Blog"
+        }
+    })
+})
+
+</script>
 
 <style scoped>
-section{
+section {
     background-color: burlywood;
 }
+
 .card {
     transition: all .25s;
     transition-timing-function: ease-in-out;
@@ -101,9 +116,10 @@ img {
     margin-bottom: 10px;
 }
 
-p{
+p {
     padding: 0 10px;
 }
+
 .leiamais {
     text-align: right;
     font-size: 12px;

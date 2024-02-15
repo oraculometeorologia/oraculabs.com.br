@@ -12,18 +12,23 @@
       <div class="collapse navbar-collapse pt-2 pt-md-0" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li v-if="!containsPrivacyOrForm" class="nav-item">
-            <NuxtLink @click="navigation1" to="/#projetos">
-              <a class="nav-link" hef="/#produtos-servicos" aria-label="Produtos e serviços">Produtos e serviços </a>
+            <NuxtLink  to="/#servicos">
+              <a class="nav-link" hef="/#servicos" aria-label="Produtos e serviços">Serviços </a>
             </NuxtLink>
           </li>
           <li v-if="!containsPrivacyOrForm" class="nav-item">
-            <NuxtLink @click="navigation2" to="/#quem-somos">
+            <NuxtLink  to="/#projetos">
+              <a class="nav-link" aria-label="Projetos">Projetos</a>
+            </NuxtLink>
+          </li>
+          <li v-if="!containsPrivacyOrForm" class="nav-item">
+            <NuxtLink  to="/#clientes">
+              <a class="nav-link" aria-label="Clientes e parceiros">Clientes e Parceiros</a>
+            </NuxtLink>
+          </li>
+          <li v-if="!containsPrivacyOrForm" class="nav-item">
+            <NuxtLink to="/#quem-somos">
               <a class="nav-link" aria-label="Quem somos">Quem somos</a>
-            </NuxtLink>
-          </li>
-          <li v-if="!containsPrivacyOrForm" class="nav-item">
-            <NuxtLink @click="navigation3" to="/#clientes">
-              <a class="nav-link" aria-label="Clientes e parceiros">Clientes e parceiros</a>
             </NuxtLink>
           </li>
           <li v-if="containsPrivacyOrForm" class="nav-item" aria-label=" Voltar">
@@ -61,22 +66,6 @@ export default {
       const url = window.location.href;
       this.containsPrivacyOrForm = url.includes("privacidade") || url.includes("termos");
     },
-
-    navigation0() {
-      document.title = 'Oraculabs ::';
-    },
-
-    navigation1() {
-      document.title = 'Oraculabs :: Produtos e Serviços';
-    },
-
-    navigation2() {
-      document.title = 'Oraculabs :: Quem Somos';
-    },
-
-    navigation3() {
-      document.title = 'Oraculabs :: Clientes e parceiros';
-    }
   },
 }
   </script>

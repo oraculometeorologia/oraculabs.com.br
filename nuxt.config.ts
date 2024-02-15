@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'Desenvolvimento de Software :: OracuLabs',
+      title: 'Desenvolvimento de Software | OracuLabs',
       meta: [
         { hid: 'description', name: 'description', content: 'A OracuLabs é especializada em serviços de Desenvolvimento de Software para atender às necessidades específicas das empresas.' },
         { hid: 'keywords', name: 'keywords', content: 'Desenvolvimento de Software, Software Empresarial, Soluções Personalizadas, Desenvolvimento Web' },

@@ -22,6 +22,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 onMounted(() => {
   document.title = 'OracuLabs';
+  
 })
 </script>
 
@@ -36,8 +37,6 @@ h1{
   font-weight: 700;
 }
 
-</style>
-<style scoped>
 #top {
   position: relative;
 }

@@ -1,6 +1,6 @@
 <template>
   <section aria-label="Nossos Diferenciais" class="py-4 py-md-5" id="produtos-servicos">
-    <div class="container text-center">
+    <div id="diferenciais-scroll" class="container text-center">
       <div class="row gx-4">
         <div class="col-lg-3 col-md-6 col-sm-12  mb-3">
           <div class="card h-100 p-4 p-md-5 "> <!--shadow-sm -->
@@ -38,7 +38,22 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+onMounted(() => {
+  window.addEventListener('scroll', function () {
+    const rect = document.getElementById("diferenciais-scroll").getBoundingClientRect();
+    if (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    ) {
+      document.title = "Desenvolvimento de Software | OracuLabs"
+    }
+  })
+})
+
+</script>
 
 <style scoped>
 
