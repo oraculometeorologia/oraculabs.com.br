@@ -3,7 +3,7 @@
     <!-- <div class="container text-center ">
       <h1>Quem somos</h1>
     </div> -->
-    <div class="text-center card rounded-4" id="divQuemSomos">
+    <div class="text-center card rounded-4" id="quemSomos-scroll">
       <div class="mb-4" id="txtQuemSomos">
         <NuxtLink to="/#hero"  class="navbar-brand" id="logoQuemSomos">
           <img class="imgQuemSomos" src="/images/logos_oraculabs/logo-oraculabs-white.png"  alt="Oraculabs" aria-label="Oraculabs"/>
@@ -23,7 +23,23 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+onMounted(() => {
+  window.addEventListener('scroll', function () {
+    const rect = document.getElementById("quemSomos-scroll").getBoundingClientRect();
+    if (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    ) {
+      document.title = "Oraculabs | Quem Somos"
+    }
+  })
+})
+
+</script>
 
 <style scoped>
 
@@ -41,7 +57,7 @@ img {
   font-size: 20px;
 }
 
-#divQuemSomos {
+#quemSomos-scroll {
   background-image: url('/images/banner/bg-hero.jpg');
   background-size: cover;
   margin-bottom: -70px;
