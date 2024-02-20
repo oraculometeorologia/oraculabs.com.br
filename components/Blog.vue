@@ -1,6 +1,6 @@
 <template>
-    <section aria-label="Blog" class="py-4 " id="blog">
-        <div class="container text-center">
+    <section aria-label="Blog" class="py-4 " >
+        <div class="container text-center" id="blog" >
             <h1>Acontece...</h1>
             <hr class="hr-title">
             <div id="blog-scroll" class="row ">
@@ -75,7 +75,6 @@ onMounted(() => {
         if (
             rect.top >= 0 &&
             rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         ) {
             document.title = "Oraculabs | Blog"

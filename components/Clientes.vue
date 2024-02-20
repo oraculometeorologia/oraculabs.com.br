@@ -1,13 +1,13 @@
 <template>
-  <section id="client-scroll" aria-label="Empresas que já contaram conosco">
-    <div class="container pb-4 text-center" id="clientes">
+  <section aria-label="Empresas que já contaram conosco">
+    <div id="client-scroll" class="container text-center">
       <h1 class="mt-5 text-center">Empresas que já contaram conosco</h1>
       <hr class="hr-title">
+    </div>
 
-      <div class="row mb-4 mb-md-5 gx-4">
-        <div v-for="value in clients" class="col-sm-6 col-md-3">
-          <img :src="'/images/clients/logos/' + value.imgUrl" :alt="value.alt" class="w-5 client-logo">
-        </div>
+    <div class="row mb-4 mb-md-5 gx-4 text-center">
+      <div v-for="value in clients" class="col-sm-6 col-md-4 col-lg-3">
+        <img :src="'/images/clients/logos/' + value.imgUrl" :alt="value.alt" class="w-5 client-logo">
       </div>
     </div>
   </section>

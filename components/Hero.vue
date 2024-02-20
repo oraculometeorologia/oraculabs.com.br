@@ -4,7 +4,7 @@
       <div>
         <div class="row ">
           <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
-            <h1>Soluções digitais para suas necessidades</h1>
+            <h1 id="hero-scroll">Soluções digitais para suas necessidades</h1>
             <p>Criamos sistemas digitais personalizados para atender as necessidades de seu negócio e
               diminuir seus custos e despesas.
             </p>
@@ -21,6 +21,24 @@
     </div>
   </section>
 </template>
+
+  
+<script setup>
+
+onMounted(() => {
+    window.addEventListener('scroll', function () {
+        const rect = document.getElementById("hero-scroll").getBoundingClientRect();
+        if (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        ) {
+            document.title = "Desenvolvimento de Software | OracuLabs"
+        }
+    })
+})
+
+</script>
 
 <style scoped>
 .text-right {
