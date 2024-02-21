@@ -47,8 +47,9 @@ onMounted(() => {
 
 img {
   text-align: right !important;
-  margin: 100px 0 0 0;
-  width: 65%;
+  margin: 30px 0 0 0;
+  width: 530px;
+  height: 410px;
 }
 
 #hero {
@@ -91,15 +92,17 @@ p {
     line-height: 2.1rem;
   }
 
+
   img {
   text-align: right !important;
-  margin: 100px 0 0 0;
-  width: 85%;
+  margin: 40px 0 0 0;
+  width: 430px;
+  height: 430px;
 }
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 770px) {
 
   #hero {
     background-position-x: center;
@@ -124,9 +127,7 @@ p {
   }
 
   img {
-    text-align: center !important;
-    margin: 0 0 20px 0;
-    width: 65%;
+    display: none;
   }
 
 }

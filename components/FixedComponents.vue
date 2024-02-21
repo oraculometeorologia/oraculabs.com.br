@@ -38,7 +38,7 @@ a:visited {
 
 @media (max-width: 576px) {
   .m-3 {
-    margin: 0rem 3rem 0rem 0.5rem !important;
+    margin: 0rem 1.5rem 0.5rem 0.5rem !important;
   }
 }
 

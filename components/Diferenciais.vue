@@ -3,22 +3,22 @@
     <div id="diferenciais-scroll" class="container text-center">
       <div class="row gx-4">
         <div class="col-lg-3 col-md-6 col-sm-12  mb-3">
-          <div class="card h-100 p-4 p-md-5 "> <!--shadow-sm -->
-            <img src="/images/icon/foco.png"  alt="Foco total no seu sucesso" aria-label="Foco total no seu sucesso" />
+          <div class="card h-100 p-4 p-md-5 mx-auto"> <!--shadow-sm -->
+            <img  class=" mx-auto" src="/images/icon/foco.png"  alt="Foco total no seu sucesso" aria-label="Foco total no seu sucesso" />
             <h3>Foco total no seu sucesso</h3>
             <p>Aumente o seu poder de tomada de decisões com nossos sistemas customizados</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-3  ">
-          <div class="card h-100 p-4 p-md-5 ">
-            <img src="/images/icon/mao2.png" style="padding-bottom: 0;"  alt="Se torne líder de mercado" aria-label="Se torne líder de mercado"/>
+          <div class="card h-100 p-4 p-md-5 mx-auto">
+            <img  class=" mx-auto" src="/images/icon/mao2.png" style="padding-bottom: 0;"  alt="Se torne líder de mercado" aria-label="Se torne líder de mercado"/>
             <h3>Se torne líder de mercado</h3>
             <p>Nós cuidamos da parte tecnológica para você se dedicar a crescer seu negócio.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-          <div class="card h-100 p-4 p-md-5  ">
-            <img src="/images/icon/mordomo.png"  alt="Experiência única" aria-label="Experiência única"/>
+          <div class="card h-100 p-4 p-md-5 ">
+            <img  class=" mx-auto" src="/images/icon/mordomo.png"  alt="Experiência única" aria-label="Experiência única"/>
             <h3>Experiência<br />única</h3>
             <p>Priorizamos o atendimento e o desenvolvimento sem enrolação para que tenha a melhor experiência conosco.
             </p>
@@ -27,9 +27,9 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
           <div class="card h-100 p-4 p-md-5 ">
 
-            <img src="/images/icon/dor.png"  alt="Terceirize sua dor de cabeça" aria-label="Terceirize sua dor de cabeça"/>
+            <img  class=" mx-auto" src="/images/icon/dor.png"  alt="Terceirize sua dor de cabeça" aria-label="Terceirize sua dor de cabeça"/>
             <h3>Terceirize sua dor de cabeça</h3>
-            <p>Reduza custos de contratação e treinamento de uma equipe própria de TI.</p>
+            <p>Reduza custos de contratação e treinamento de uma equipe própria de TI..</p>
           </div>
         </div>
 
@@ -95,6 +95,15 @@ img {
 h3 {
   color: #101F40;
   font-weight: 700;
+}
+
+@media (max-width: 770px) {
+  
+  img {
+  max-width: 190px;
+  
+}
+
 }
 
 </style>
