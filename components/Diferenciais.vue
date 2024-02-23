@@ -60,6 +60,7 @@ onMounted(() => {
 img {
   margin-bottom: 10px;
   text-align: center !important;
+  max-width: 190px;
 }
 
 .card {
@@ -97,13 +98,11 @@ h3 {
   font-weight: 700;
 }
 
-@media (max-width: 770px) {
-  
-  img {
-  max-width: 190px;
-  
-}
 
-}
+
+  
+
+
+
 
 </style>

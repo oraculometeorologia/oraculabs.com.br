@@ -23,11 +23,11 @@
             <li class="pb-3">Help center</li>
           </ul>
         </div> -->
-        <div class="col-lg-1 col-sm-12 col-md-1 alignDinamic">
+        <div class="col-lg-1 col-sm-12 col-md-2 alignDinamic">
           <img src="/images/icon/fundacao.png"  alt="Fundação" aria-label="Fundação">
         </div>
 
-        <div class="col-lg-7 col-sm-12 col-md-12 alignDinamic  ">
+        <div class="col-lg-7 col-sm-12 col-md-7 alignDinamic  ">
           <ul>
             <li><b>UMA EMPRESA DO GRUPO:</b> </li>
             <li>IGAM4 Consultoria Científica e Tecnológica Ltda</li>
@@ -36,7 +36,7 @@
         </div>
 
 
-        <div class="col-lg-4 col-sm-12 col-md-12 mt-3">
+        <div class="col-lg-4 col-sm-12 col-md-3 mt-3">
           <ul>
             <li class="pb-3 alignDinamicPolitic ">
               <NuxtLink to="/politica-de-privacidade">Política de privacidade</NuxtLink>
@@ -190,7 +190,7 @@ img {
   font-weight: 600;
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 600px) {
   .mt-5 {
     margin-top: 0 !important;
   }
