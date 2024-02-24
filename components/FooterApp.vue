@@ -23,11 +23,11 @@
             <li class="pb-3">Help center</li>
           </ul>
         </div> -->
-        <div class="col-lg-1 col-sm-2 col-md-1 text-left">
+        <div class="col-lg-1 col-sm-12 col-md-2 alignDinamic">
           <img src="/images/icon/fundacao.png"  alt="Fundação" aria-label="Fundação">
         </div>
 
-        <div class="col-lg-7 col-sm-8 col-md-8 text-left  ">
+        <div class="col-lg-7 col-sm-12 col-md-7 alignDinamic  ">
           <ul>
             <li><b>UMA EMPRESA DO GRUPO:</b> </li>
             <li>IGAM4 Consultoria Científica e Tecnológica Ltda</li>
@@ -36,13 +36,13 @@
         </div>
 
 
-        <div class="col-lg-4 col-sm-12 col-md-12 mt-3">
+        <div class="col-lg-4 col-sm-12 col-md-3 mt-3">
           <ul>
-            <li class="pb-3 text-right ">
+            <li class="pb-3 alignDinamicPolitic ">
               <NuxtLink to="/politica-de-privacidade">Política de privacidade</NuxtLink>
             </li>
 
-            <li class="pb-3 text-right ">
+            <li class="pb-3 alignDinamicTermos ">
               <NuxtLink to="/termos-de-uso">Termos de uso</NuxtLink>
             </li>
 
@@ -141,10 +141,15 @@
 
 <style scoped>
 
-hr{
-  margin: 0 0 5px 0;
+.alignDinamicTermos{
+  text-align: right;
 }
-.text-right {
+
+.alignDinamic{
+  text-align: left;
+}
+
+.alignDinamicPolitic{
   text-align: right;
 }
 
@@ -180,23 +185,27 @@ img {
   width: 80px;
 }
 
-.img-link {
-  width: 90%;
-}
 
 .direitos-reservados {
   font-weight: 600;
 }
 
-.icon-link {
-  font-size: 24px;
-  color: white;
-}
-
-@media (max-width: 576px) {
+@media only screen and (max-width: 600px) {
   .mt-5 {
     margin-top: 0 !important;
   }
+
+  .alignDinamic{
+  text-align: center;
+}
+
+.alignDinamicPolitic{
+  text-align: center;
+}
+
+.alignDinamicTermos{
+  text-align: center;
+}
 
 }
 </style>

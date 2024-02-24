@@ -13,7 +13,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 text-right ">
-            <img src="../public/images/hero/hero_art.svg"  alt="Oraculabs - Soluções digitais" aria-label="Oraculabs - Soluções digitais"/>
+            <img src="../public/images/hero/hero_art.svg" alt="Oraculabs - Soluções digitais"
+              aria-label="Oraculabs - Soluções digitais" />
           </div>
         </div>
 
@@ -26,16 +27,16 @@
 <script setup>
 
 onMounted(() => {
-    window.addEventListener('scroll', function () {
-        const rect = document.getElementById("hero-scroll").getBoundingClientRect();
-        if (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        ) {
-            document.title = "Desenvolvimento de Software | OracuLabs"
-        }
-    })
+  window.addEventListener('scroll', function () {
+    const rect = document.getElementById("hero-scroll").getBoundingClientRect();
+    if (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    ) {
+      document.title = "Desenvolvimento de Software | OracuLabs"
+    }
+  })
 })
 
 </script>
@@ -47,8 +48,9 @@ onMounted(() => {
 
 img {
   text-align: right !important;
-  margin: 100px 0 0 0;
-  width: 65%;
+  margin: 30px 0 0 0;
+  width: 630px;
+  height: 410px;
 }
 
 #hero {
@@ -74,16 +76,17 @@ p {
   margin-bottom: 30px;
   color: white;
   font-weight: bolder;
+
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1225px) {
 
-@media (max-width: 1000px) {
   #hero {
     min-height: 540px;
   }
 
   #hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 
   #hero p {
@@ -91,23 +94,27 @@ p {
     line-height: 2.1rem;
   }
 
+
   img {
-  text-align: right !important;
-  margin: 100px 0 0 0;
-  width: 85%;
-}
+    text-align: right !important;
+    margin: 40px 0 0 0;
+    width: 340px;
+    height: 430px;
+  }
 
 }
 
-@media (max-width: 576px) {
+
+
+@media only screen and (max-width: 767px) {
 
   #hero {
     background-position-x: center;
-    min-height: 560px;
+    min-height: 540px;
   }
 
   #hero h1 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-family: 'Oxygen', sans-serif;
     padding-top: 30px;
     padding-bottom: 0px;
@@ -124,9 +131,7 @@ p {
   }
 
   img {
-    text-align: center !important;
-    margin: 0 0 20px 0;
-    width: 65%;
+    display: none;
   }
 
 }
