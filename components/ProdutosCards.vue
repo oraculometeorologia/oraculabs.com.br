@@ -127,6 +127,6 @@ p {
 
 
 .bg-purple-gradient {
-  background-image: linear-gradient(145deg, #4694da, #51558b);
+  background-image: linear-gradient(145deg, #564288, #51558b);
 }
 </style>
