@@ -1,18 +1,11 @@
 <template>
   <NuxtLayout>
     <Hero />
-    <Diferenciais />
-    <ProdutosCards />
     
-    <!-- <Clients /> -->
-    <!-- <Carousel /> -->
-    <!-- <FaleConosco /> -->
-    <!-- <Newsletter /> -->
-
-    <Cases/>
-    <Blog/>
-    <Clientes/>
-    <QuemSomos />
+    <Blog />
+    
+    
+    
     <FixedComponents />
   </NuxtLayout>
 </template>
@@ -58,6 +51,5 @@ h1{
 .outline {
   outline: 1px solid black;
 }
-
 
 </style>

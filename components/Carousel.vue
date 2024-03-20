@@ -1,6 +1,59 @@
 <template>
   <section aria-label="Destaques na Mídia" class="py-4 py-md-5 bg-blue">
     <div class="container">
+      <div class="row ">
+
+<div id="services-scroll" class="col-12 mb-3">
+    <div class="card h-100 p-4 shadow-sm bg-white flex-column justify-content-center">
+        <div>
+            <img src="/images/blog/blog1.jpg" alt="Organize seus dados" aria-label="Organize seus dados" />
+        </div>
+        <div class="row ">
+            <div class="col-md-12 mb-10 pt-2 text-center flex-column ">
+                <h1 class="mt-2 ">Organize seus dados</h1>
+                <p class="mt-3 ">Centralize seus dados com segurança e fácil acesso para extrair informações
+                    relevantes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services-scroll" class="col-6 mb-3">Anterior</div>
+<div id="services-scroll" class="col-6 mb-3">Proximo</div>
+<div id="services-scroll" class="col-6 mb-3">
+    <div class="card h-100 p-4 shadow-sm bg-white flex-column justify-content-center">
+        <div>
+            <img src="/images/blog/blog1.jpg" alt="Organize seus dados" aria-label="Organize seus dados" />
+        </div>
+        <div class="row ">
+            <div class="col-md-12 mb-10 pt-2 text-center flex-column ">
+                <h3 class="mt-2 ">Organize seus dados</h3>
+                <p class="mt-3 ">Centralize seus dados com segurança e fácil acesso para extrair informações
+                    relevantes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services-scroll" class="col-6 mb-3">
+    <div class="card h-100 p-4 shadow-sm bg-white flex-column justify-content-center">
+        <div>
+            <img src="/images/blog/blog1.jpg" alt="Organize seus dados" aria-label="Organize seus dados" />
+        </div>
+        <div class="row ">
+            <div class="col-md-12 mb-10 pt-2 text-center flex-column ">
+                <h2 class="mt-2 ">Organize seus dados</h2>
+                <p class="mt-3 ">Centralize seus dados com segurança e fácil acesso para extrair informações
+                    relevantes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+
       <h2 class="fs-1 py-4 py-md-5 text-center">Destaques</h2>
       
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">

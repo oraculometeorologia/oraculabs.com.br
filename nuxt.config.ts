@@ -57,5 +57,11 @@ export default defineNuxtConfig({
         // ]
       ]
     }
+  },
+  runtimeConfig: {
+    // Keys within public, will be also exposed to the client-side
+    public: {
+      NUXT_API_URL: process.env.NUXT_API_URL,
+    },
   }
 })
