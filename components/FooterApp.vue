@@ -127,8 +127,8 @@
       <hr>
       <div class="row ">
         <div class="col-12 ">
-          <p class="text-center"><span class="copyright">&copy;</span> 
-            <span class="direitos-reservados">OracuLabs</span> - 2024</p>
+          <p class="text-center"><span class="copyright me-1">&copy;</span>
+            <span class="direitos-reservados">OracuLabs</span> - 2025</p>
         </div>
       </div>
 
